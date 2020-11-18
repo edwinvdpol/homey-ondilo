@@ -4,7 +4,11 @@
     "compatibility": ">=4.2.0",
     "sdk": 2,
     "brandColor": "#29A59B",
-    "name": "ICO",
+    "name": {
+        "en": "ICO",
+        "fr": "ICO",
+        "nl": "ICO"
+    },
     "description": {
         "en": "Simplify your pool maintenance",
         "fr": "Simplifiez l'entretien de votre piscine",
