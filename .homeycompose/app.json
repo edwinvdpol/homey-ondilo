@@ -1,0 +1,53 @@
+{
+    "id": "com.ondilo.ico",
+    "version": "1.0.0",
+    "compatibility": ">=4.2.0",
+    "sdk": 2,
+    "brandColor": "#29A59B",
+    "name": "ICO",
+    "description": {
+        "en": "Simplify your pool maintenance",
+        "fr": "Simplifiez l'entretien de votre piscine",
+        "nl": "Vereenvoudig uw zwembadonderhoud"
+    },
+    "category": [
+        "appliances"
+    ],
+    "tags": {
+        "en": ["Ondilo", "ICO", "health", "swimming", "pool", "spa", "measures"],
+        "fr": ["Ondilo", "ICO", "santé", "la natation", "piscine", "spa", "les mesures"],
+        "nl": ["Ondilo", "ICO", "gezondheid", "zwembad", "bad", "badplaats", "metingen"]
+    },
+    "images": {
+        "large": "/assets/images/large.png",
+        "small": "/assets/images/small.png"
+    },
+    "permissions": [],
+    "author": {
+        "name": "Edwin van de Pol",
+        "email": "developer@edwinvandepol.nl"
+    },
+    "contributors": {
+        "developers": [
+            {
+                "name": "Edwin van de Pol",
+                "email": "developer@edwinvandepol.nl"
+            }
+        ],
+        "translators": [
+            {
+                "name": "🇫🇷 François Akermann"
+            }
+        ]
+    },
+    "contributing": {
+        "donate": {
+            "paypal": {
+                "username": "edwinvdpol"
+            }
+        }
+    },
+    "homeyCommunityTopicId": 37536,
+    "source": "https://github.com/edwinvdpol/com.ondilo.ico",
+    "support": "https://community.athom.com/t/37536"
+}

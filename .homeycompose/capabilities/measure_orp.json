@@ -1,0 +1,20 @@
+{
+    "type": "number",
+    "title": {
+        "en": "ORP Value",
+        "fr": "Valeur ORP",
+        "nl": "ORP waarde"
+    },
+    "uiComponent": "sensor",
+    "icon": "/assets/orp.svg",
+    "units": "mV",
+    "insights": true,
+    "desc": {
+		"en": "Oxidation-reduction potential in millivolts (mV)",
+		"fr": "Potentiel d'oxydoréduction en millivolts (mV)",
+		"nl": "Oxidatie-reductiepotentieel in millivolt (mV)"
+	},
+    "chartType": "stepLine",
+    "getable": true,
+    "setable": false
+}

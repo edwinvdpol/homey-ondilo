@@ -1,0 +1,22 @@
+{
+    "type": "number",
+    "title": {
+        "en": "RSSI Value",
+        "fr": "Valeur RSSI",
+        "nl": "RSSI waarde"
+    },
+    "uiComponent": "sensor",
+    "icon": "/assets/rssi.svg",
+    "units": "%",
+    "insights": true,
+    "min": 0,
+    "max": 100,
+    "desc": {
+        "en": "Received signal strength indicator in percentage (%)",
+        "fr": "Indicateur de force du signal reçu en pourcentage (%)",
+        "nl": "Indicator ontvangen signaalsterkte in procenten (%)"
+    },
+    "chartType": "spline",
+    "getable": true,
+    "setable": false
+}

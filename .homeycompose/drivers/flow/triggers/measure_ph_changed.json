@@ -1,0 +1,19 @@
+{
+    "title": {
+        "en": "The pH value changed",
+        "fr": "La valeur du pH a changé",
+        "nl": "De pH waarde is veranderd"
+    },
+    "tokens": [
+        {
+            "name": "measure_ph",
+            "title": {
+                "en": "pH Value",
+                "fr": "Valeur pH",
+                "nl": "pH waarde"
+            },
+            "type": "number",
+            "example": 7.2
+        }
+    ]
+}

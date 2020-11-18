@@ -1,0 +1,7 @@
+{
+    "id": "pool",
+    "name": "ICO Pool",
+    "$extends": [
+        "defaults"
+    ]
+}

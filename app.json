@@ -1,0 +1,630 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "com.ondilo.ico",
+  "version": "1.0.0",
+  "compatibility": ">=4.2.0",
+  "sdk": 2,
+  "brandColor": "#29A59B",
+  "name": "ICO",
+  "description": {
+    "en": "Simplify your pool maintenance",
+    "fr": "Simplifiez l'entretien de votre piscine",
+    "nl": "Vereenvoudig uw zwembadonderhoud"
+  },
+  "category": [
+    "appliances"
+  ],
+  "tags": {
+    "en": [
+      "Ondilo",
+      "ICO",
+      "health",
+      "swimming",
+      "pool",
+      "spa",
+      "measures"
+    ],
+    "fr": [
+      "Ondilo",
+      "ICO",
+      "santé",
+      "la natation",
+      "piscine",
+      "spa",
+      "les mesures"
+    ],
+    "nl": [
+      "Ondilo",
+      "ICO",
+      "gezondheid",
+      "zwembad",
+      "bad",
+      "badplaats",
+      "metingen"
+    ]
+  },
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "permissions": [],
+  "author": {
+    "name": "Edwin van de Pol",
+    "email": "developer@edwinvandepol.nl"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Edwin van de Pol",
+        "email": "developer@edwinvandepol.nl"
+      }
+    ],
+    "translators": [
+      {
+        "name": "🇫🇷 François Akermann"
+      }
+    ]
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "edwinvdpol"
+      }
+    }
+  },
+  "homeyCommunityTopicId": 37536,
+  "source": "https://github.com/edwinvdpol/com.ondilo.ico",
+  "support": "https://community.athom.com/t/ico-pool-spa/37536",
+  "flow": {
+    "triggers": [
+      {
+        "id": "measure_orp_changed",
+        "title": {
+          "en": "The ORP value changed",
+          "fr": "La valeur ORP a changé",
+          "nl": "De ORP waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "measure_orp",
+            "title": {
+              "en": "ORP Value",
+              "fr": "Valeur ORP",
+              "nl": "ORP waarde"
+            },
+            "type": "number",
+            "example": 400
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool"
+          }
+        ]
+      },
+      {
+        "id": "measure_ph_changed",
+        "title": {
+          "en": "The pH value changed",
+          "fr": "La valeur du pH a changé",
+          "nl": "De pH waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "measure_ph",
+            "title": {
+              "en": "pH Value",
+              "fr": "Valeur pH",
+              "nl": "pH waarde"
+            },
+            "type": "number",
+            "example": 7.2
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool"
+          }
+        ]
+      },
+      {
+        "id": "measure_rssi_changed",
+        "title": {
+          "en": "The RSSI value changed",
+          "fr": "La valeur RSSI a changé",
+          "nl": "De RSSI waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "measure_rssi",
+            "title": {
+              "en": "RSSI Value",
+              "fr": "Valeur RSSI",
+              "nl": "RSSI waarde"
+            },
+            "type": "number",
+            "example": 50
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool"
+          }
+        ]
+      },
+      {
+        "id": "measure_salt_changed",
+        "title": {
+          "en": "The salt value changed",
+          "fr": "La valeur du sel a changé",
+          "nl": "De zout waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "measure_salt",
+            "title": {
+              "en": "Salt Value",
+              "fr": "Valeur du sel",
+              "nl": "Zout waarde"
+            },
+            "type": "number",
+            "example": 40
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool"
+          }
+        ]
+      },
+      {
+        "id": "measure_tds_changed",
+        "title": {
+          "en": "The TDS value changed",
+          "fr": "La valeur TDS a changé",
+          "nl": "De TDS waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "measure_tds",
+            "title": {
+              "en": "TDS Value",
+              "fr": "Valeur TDS",
+              "nl": "TDS waarde"
+            },
+            "type": "number",
+            "example": 400
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool"
+          }
+        ]
+      },
+      {
+        "id": "measure_orp_changed",
+        "title": {
+          "en": "The ORP value changed",
+          "fr": "La valeur ORP a changé",
+          "nl": "De ORP waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "measure_orp",
+            "title": {
+              "en": "ORP Value",
+              "fr": "Valeur ORP",
+              "nl": "ORP waarde"
+            },
+            "type": "number",
+            "example": 400
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=spa"
+          }
+        ]
+      },
+      {
+        "id": "measure_ph_changed",
+        "title": {
+          "en": "The pH value changed",
+          "fr": "La valeur du pH a changé",
+          "nl": "De pH waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "measure_ph",
+            "title": {
+              "en": "pH Value",
+              "fr": "Valeur pH",
+              "nl": "pH waarde"
+            },
+            "type": "number",
+            "example": 7.2
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=spa"
+          }
+        ]
+      },
+      {
+        "id": "measure_rssi_changed",
+        "title": {
+          "en": "The RSSI value changed",
+          "fr": "La valeur RSSI a changé",
+          "nl": "De RSSI waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "measure_rssi",
+            "title": {
+              "en": "RSSI Value",
+              "fr": "Valeur RSSI",
+              "nl": "RSSI waarde"
+            },
+            "type": "number",
+            "example": 50
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=spa"
+          }
+        ]
+      },
+      {
+        "id": "measure_salt_changed",
+        "title": {
+          "en": "The salt value changed",
+          "fr": "La valeur du sel a changé",
+          "nl": "De zout waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "measure_salt",
+            "title": {
+              "en": "Salt Value",
+              "fr": "Valeur du sel",
+              "nl": "Zout waarde"
+            },
+            "type": "number",
+            "example": 40
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=spa"
+          }
+        ]
+      },
+      {
+        "id": "measure_tds_changed",
+        "title": {
+          "en": "The TDS value changed",
+          "fr": "La valeur TDS a changé",
+          "nl": "De TDS waarde is veranderd"
+        },
+        "tokens": [
+          {
+            "name": "measure_tds",
+            "title": {
+              "en": "TDS Value",
+              "fr": "Valeur TDS",
+              "nl": "TDS waarde"
+            },
+            "type": "number",
+            "example": 400
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=spa"
+          }
+        ]
+      }
+    ]
+  },
+  "drivers": [
+    {
+      "images": {
+        "large": "/drivers/pool/assets/images/large.png",
+        "small": "/drivers/pool/assets/images/small.png"
+      },
+      "capabilities": [
+        "measure_battery",
+        "measure_orp",
+        "measure_ph",
+        "measure_rssi",
+        "measure_salt",
+        "measure_tds",
+        "measure_temperature"
+      ],
+      "energy": {
+        "batteries": [
+          "INTERNAL"
+        ]
+      },
+      "class": "other",
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "settings": [
+        {
+          "type": "group",
+          "label": {
+            "en": "Properties",
+            "fr": "Propriétés",
+            "nl": "Eigenschappen"
+          },
+          "children": [
+            {
+              "id": "volume",
+              "type": "label",
+              "label": {
+                "en": "Total Volume",
+                "fr": "Volume total",
+                "nl": "Totaal volume"
+              },
+              "value": "-"
+            },
+            {
+              "id": "serial_number",
+              "type": "label",
+              "label": {
+                "en": "Serial Number",
+                "fr": "Numéro de série",
+                "nl": "Serienummer"
+              },
+              "value": "-"
+            },
+            {
+              "id": "sw_version",
+              "type": "label",
+              "label": {
+                "en": "Software Version",
+                "fr": "Une version de logiciel",
+                "nl": "Software versie"
+              },
+              "value": "-"
+            }
+          ]
+        }
+      ],
+      "id": "pool",
+      "name": "ICO Pool"
+    },
+    {
+      "images": {
+        "large": "/drivers/spa/assets/images/large.png",
+        "small": "/drivers/spa/assets/images/small.png"
+      },
+      "capabilities": [
+        "measure_battery",
+        "measure_orp",
+        "measure_ph",
+        "measure_rssi",
+        "measure_salt",
+        "measure_tds",
+        "measure_temperature"
+      ],
+      "energy": {
+        "batteries": [
+          "INTERNAL"
+        ]
+      },
+      "class": "other",
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "settings": [
+        {
+          "type": "group",
+          "label": {
+            "en": "Properties",
+            "fr": "Propriétés",
+            "nl": "Eigenschappen"
+          },
+          "children": [
+            {
+              "id": "volume",
+              "type": "label",
+              "label": {
+                "en": "Total Volume",
+                "fr": "Volume total",
+                "nl": "Totaal volume"
+              },
+              "value": "-"
+            },
+            {
+              "id": "serial_number",
+              "type": "label",
+              "label": {
+                "en": "Serial Number",
+                "fr": "Numéro de série",
+                "nl": "Serienummer"
+              },
+              "value": "-"
+            },
+            {
+              "id": "sw_version",
+              "type": "label",
+              "label": {
+                "en": "Software Version",
+                "fr": "Une version de logiciel",
+                "nl": "Software versie"
+              },
+              "value": "-"
+            }
+          ]
+        }
+      ],
+      "id": "spa",
+      "name": "ICO Spa"
+    }
+  ],
+  "capabilities": {
+    "measure_orp": {
+      "type": "number",
+      "title": {
+        "en": "ORP Value",
+        "fr": "Valeur ORP",
+        "nl": "ORP waarde"
+      },
+      "uiComponent": "sensor",
+      "icon": "/assets/orp.svg",
+      "units": "mV",
+      "insights": true,
+      "desc": {
+        "en": "Oxidation-reduction potential in millivolts (mV)",
+        "fr": "Potentiel d'oxydoréduction en millivolts (mV)",
+        "nl": "Oxidatie-reductiepotentieel in millivolt (mV)"
+      },
+      "chartType": "stepLine",
+      "getable": true,
+      "setable": false
+    },
+    "measure_ph": {
+      "type": "number",
+      "title": {
+        "en": "pH Value",
+        "fr": "Valeur pH",
+        "nl": "pH waarde"
+      },
+      "uiComponent": "sensor",
+      "icon": "/assets/ph.svg",
+      "decimals": 2,
+      "insights": true,
+      "chartType": "stepLine",
+      "getable": true,
+      "setable": false
+    },
+    "measure_rssi": {
+      "type": "number",
+      "title": {
+        "en": "RSSI Value",
+        "fr": "Valeur RSSI",
+        "nl": "RSSI waarde"
+      },
+      "uiComponent": "sensor",
+      "icon": "/assets/rssi.svg",
+      "units": "%",
+      "insights": true,
+      "min": 0,
+      "max": 100,
+      "desc": {
+        "en": "Received signal strength indicator in percentage (%)",
+        "fr": "Indicateur de force du signal reçu en pourcentage (%)",
+        "nl": "Indicator ontvangen signaalsterkte in procenten (%)"
+      },
+      "chartType": "spline",
+      "getable": true,
+      "setable": false
+    },
+    "measure_salt": {
+      "type": "number",
+      "title": {
+        "en": "Salt Value",
+        "fr": "Valeur du sel",
+        "nl": "Zout waarde"
+      },
+      "uiComponent": "sensor",
+      "icon": "/assets/salt.svg",
+      "units": "mg/L",
+      "decimals": 2,
+      "insights": true,
+      "desc": {
+        "en": "Milligrams of salt per liter (mg/L)",
+        "fr": "Milligrammes de sel par litre (mg / L)",
+        "nl": "Milligram zout per liter (mg/L)"
+      },
+      "chartType": "stepLine",
+      "getable": true,
+      "setable": false
+    },
+    "measure_tds": {
+      "type": "number",
+      "title": {
+        "en": "TDS Value",
+        "fr": "Valeur TDS",
+        "nl": "TDS waarde"
+      },
+      "uiComponent": "sensor",
+      "icon": "/assets/tds.svg",
+      "units": "ppm",
+      "insights": true,
+      "desc": {
+        "en": "Total dissolved solids in parts per million (ppm)",
+        "fr": "Total des solides dissous en parties par million (ppm)",
+        "nl": "Totaal opgeloste vaste stoffen in deeltjes per miljoen (ppm)"
+      },
+      "chartType": "stepLine",
+      "getable": true,
+      "setable": false
+    }
+  }
+}

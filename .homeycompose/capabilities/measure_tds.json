@@ -1,0 +1,20 @@
+{
+    "type": "number",
+    "title": {
+        "en": "TDS Value",
+        "fr": "Valeur TDS",
+        "nl": "TDS waarde"
+    },
+    "uiComponent": "sensor",
+    "icon": "/assets/tds.svg",
+    "units": "ppm",
+    "insights": true,
+    "desc": {
+        "en": "Total dissolved solids in parts per million (ppm)",
+        "fr": "Total des solides dissous en parties par million (ppm)",
+        "nl": "Totaal opgeloste vaste stoffen in deeltjes per miljoen (ppm)"
+    },
+    "chartType": "stepLine",
+    "getable": true,
+    "setable": false
+}

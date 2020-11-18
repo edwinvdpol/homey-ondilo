@@ -1,0 +1,93 @@
+{
+    "images": {
+        "large": "{{driverPath}}/assets/images/large.png",
+        "small": "{{driverPath}}/assets/images/small.png"
+    },
+    "capabilities": [
+        "measure_battery",
+        "measure_orp",
+        "measure_ph",
+        "measure_rssi",
+        "measure_salt",
+        "measure_tds",
+        "measure_temperature"
+    ],
+    "energy": {
+        "batteries": ["INTERNAL"]
+    },
+    "class": "other",
+    "pair": [
+        {
+            "id": "login_oauth2",
+            "template": "login_oauth2"
+        },
+        {
+            "id": "list_devices",
+            "template": "list_devices",
+            "navigation": {
+                "next": "add_devices"
+            }
+        },
+        {
+            "id": "add_devices",
+            "template": "add_devices"
+        }
+    ],
+    "repair": [
+        {
+            "id": "login_oauth2",
+            "template": "login_oauth2"
+        }
+    ],
+    "$flow": {
+        "triggers": [
+            { "$extends": "measure_orp_changed" },
+            { "$extends": "measure_ph_changed" },
+            { "$extends": "measure_rssi_changed" },
+            { "$extends": "measure_salt_changed" },
+            { "$extends": "measure_tds_changed" }
+        ]
+    },
+    "settings": [
+        {
+            "type": "group",
+            "label": {
+                "en": "Properties",
+                "fr": "Propriétés",
+                "nl": "Eigenschappen"
+            },
+            "children": [
+                {
+                    "id": "volume",
+                    "type": "label",
+                    "label": {
+                        "en": "Total Volume",
+                        "fr": "Volume total",
+                        "nl": "Totaal volume"
+                    },
+                    "value": "-"
+                },
+                {
+                    "id": "serial_number",
+                    "type": "label",
+                    "label": {
+                        "en": "Serial Number",
+                        "fr": "Numéro de série",
+                        "nl": "Serienummer"
+                    },
+                    "value": "-"
+                },
+                {
+                    "id": "sw_version",
+                    "type": "label",
+                    "label": {
+                        "en": "Software Version",
+                        "fr": "Une version de logiciel",
+                        "nl": "Software versie"
+                    },
+                    "value": "-"
+                }
+            ]
+        }
+    ]
+}

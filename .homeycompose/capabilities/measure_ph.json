@@ -1,0 +1,15 @@
+{
+    "type": "number",
+    "title": {
+        "en": "pH Value",
+        "fr": "Valeur pH",
+        "nl": "pH waarde"
+    },
+    "uiComponent": "sensor",
+    "icon": "/assets/ph.svg",
+    "decimals": 2,
+    "insights": true,
+    "chartType": "stepLine",
+    "getable": true,
+    "setable": false
+}

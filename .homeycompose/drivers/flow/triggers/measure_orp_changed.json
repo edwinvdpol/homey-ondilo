@@ -1,0 +1,19 @@
+{
+    "title": {
+        "en": "The ORP value changed",
+        "fr": "La valeur ORP a changé",
+        "nl": "De ORP waarde is veranderd"
+    },
+    "tokens": [
+        {
+            "name": "measure_orp",
+            "title": {
+                "en": "ORP Value",
+                "fr": "Valeur ORP",
+                "nl": "ORP waarde"
+            },
+            "type": "number",
+            "example": 400
+        }
+    ]
+}
