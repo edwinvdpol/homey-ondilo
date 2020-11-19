@@ -1,0 +1,8 @@
+{
+    "errors": {
+        "401": "Du er ikke autorisert til å bruke API!",
+        "404": "Denne enheten ble ikke funnet!",
+        "50x": "API-et er ikke tilgjengelig! Prøv igjen senere.",
+        "unknown": "En ukjent feil har oppstått!"
+    }
+}

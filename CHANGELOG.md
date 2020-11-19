@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Italian translation
 - Spanish translation
 - Swedish translation
+- Norwegian translation
 
 ### Changed
 - Changed several translations

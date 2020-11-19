@@ -6,6 +6,7 @@
         "fr": "Le RSSI a changé",
         "it": "L'RSSI è cambiato",
         "nl": "De RSSI is veranderd",
+        "no": "RSSI har endret seg",
         "sv": "RSSI har ändrats"
     },
     "tokens": [

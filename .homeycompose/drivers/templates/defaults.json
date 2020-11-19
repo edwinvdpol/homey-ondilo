@@ -58,6 +58,7 @@
                 "fr": "Propriétés",
                 "it": "Proprietà",
                 "nl": "Eigenschappen",
+                "no": "Eiendommer",
                 "sv": "Egenskaper"
             },
             "children": [
@@ -71,6 +72,7 @@
                         "fr": "Volume total",
                         "it": "Volume totale",
                         "nl": "Totaal volume",
+                        "no": "Totalt volum",
                         "sv": "Total volym"
                     },
                     "value": "-"
@@ -85,6 +87,7 @@
                         "fr": "Numéro de série",
                         "it": "Numero di serie",
                         "nl": "Serienummer",
+                        "no": "Serienummer",
                         "sv": "Serienummer"
                     },
                     "value": "-"
@@ -99,6 +102,7 @@
                         "fr": "Une version de logiciel",
                         "it": "Versione software",
                         "nl": "Software versie",
+                        "no": "Programvareversjon",
                         "sv": "Mjukvaru-version"
                     },
                     "value": "-"

@@ -7,6 +7,7 @@
         "fr": "Valeur redox",
         "it": "Valore redox",
         "nl": "Redoxwaarde",
+        "no": "Redox-verdi",
         "sv": "Redoxvärde"
     },
     "uiComponent": "sensor",
@@ -22,6 +23,7 @@
 		"fr": "Valeur redox en millivolts (mV)",
 		"it": "Valore redox in millivolt (mV)",
 		"nl": "Redoxwaarde in millivolt (mV)",
+		"no": "Redoksverdi i millivolt (mV)",
 		"sv": "Redoxvärde i millivolt (mV)"
 	},
     "chartType": "stepLine",

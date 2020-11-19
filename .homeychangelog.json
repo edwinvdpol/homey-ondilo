@@ -6,6 +6,7 @@
     "fr": "Première version",
     "it": "Versione iniziale",
     "nl": "Eerste release",
+    "no": "Første utgivelse",
     "sv": "Första utgåvan"
   },
   "1.0.1": {
@@ -15,6 +16,7 @@
     "fr": "Nom de l'application modifié",
     "it": "Nome dell'applicazione modificato",
     "nl": "Naam van applicatie aangepast",
+    "no": "Søknadens navn er endret",
     "sv": "Ansökan har ändrats"
   }
 }

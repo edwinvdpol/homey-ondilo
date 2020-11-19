@@ -16,6 +16,7 @@
         "fr": "TDS en parts par million (ppm)",
         "it": "TDS in parti per milione (ppm)",
         "nl": "TDS deeltjes per miljoen (ppm)",
+        "no": "TDS i deler per million (ppm)",
         "sv": "TDS i delar per miljon (ppm)"
     },
     "chartType": "spline",

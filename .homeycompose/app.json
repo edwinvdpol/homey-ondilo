@@ -1,119 +1,65 @@
 {
-  "id": "com.ondilo.ico",
-  "version": "1.0.1",
-  "compatibility": ">=4.2.0",
-  "sdk": 2,
-  "brandColor": "#29A59B",
-  "name": {
-    "en": "ICO"
-  },
-  "description": {
-    "en": "Simplify your pool maintenance",
-    "de": "Vereinfachen Sie die Wartung Ihres Pools",
-    "es": "Simplifique el mantenimiento de su piscina",
-    "fr": "Simplifiez l'entretien de votre piscine",
-    "it": "Semplifica la manutenzione della tua piscina",
-    "nl": "Vereenvoudig uw zwembadonderhoud",
-    "sv": "Förenkla ditt poolunderhåll"
-  },
-  "category": [
-    "appliances"
-  ],
-  "tags": {
-    "en": [
-      "Ondilo",
-      "ICO",
-      "health",
-      "swimming",
-      "pool",
-      "spa",
-      "measures"
+    "id": "com.ondilo.ico",
+    "version": "1.0.1",
+    "compatibility": ">=4.2.0",
+    "sdk": 2,
+    "brandColor": "#29A59B",
+    "name": {
+        "en": "ICO"
+    },
+    "description": {
+        "en": "Simplify your pool maintenance",
+        "de": "Vereinfachen Sie die Wartung Ihres Pools",
+        "es": "Simplifique el mantenimiento de su piscina",
+        "fr": "Simplifiez l'entretien de votre piscine",
+        "it": "Semplifica la manutenzione della tua piscina",
+        "nl": "Vereenvoudig uw zwembadonderhoud",
+        "no": "Forenkle vedlikeholdet av bassenget",
+        "sv": "Förenkla ditt poolunderhåll"
+    },
+    "category": [
+        "appliances"
     ],
-    "de": [
-      "Ondilo",
-      "ICO",
-      "Gesundheit",
-      "Schwimmen",
-      "Schwimmbad",
-      "Spa",
-      "Maße"
-    ],
-    "es": [
-      "Ondilo",
-      "ICO",
-      "salud",
-      "nadando",
-      "piscina",
-      "spa",
-      "medidas"
-    ],
-    "fr": [
-      "Ondilo",
-      "ICO",
-      "santé",
-      "la natation",
-      "piscine",
-      "spa",
-      "les mesures"
-    ],
-    "it": [
-      "Ondilo",
-      "ICO",
-      "salute",
-      "nuoto",
-      "piscina",
-      "spa",
-      "le misure"
-    ],
-    "nl": [
-      "Ondilo",
-      "ICO",
-      "gezondheid",
-      "zwembad",
-      "bad",
-      "badplaats",
-      "metingen"
-    ],
-    "sv": [
-      "Ondilo",
-      "ICO",
-      "hälsa",
-      "simning",
-      "slå samman",
-      "spa",
-      "åtgärder"
-    ]
-  },
-  "images": {
-    "large": "/assets/images/large.png",
-    "small": "/assets/images/small.png"
-  },
-  "permissions": [],
-  "author": {
-    "name": "Edwin van de Pol",
-    "email": "developer@edwinvandepol.nl"
-  },
-  "contributors": {
-    "developers": [
-      {
+    "tags": {
+        "en": ["Ondilo", "ICO", "health", "swimming", "pool", "spa", "measures"],
+        "de": ["Ondilo", "ICO", "Gesundheit", "Schwimmen", "Schwimmbad", "Spa", "Maße"],
+        "es": ["Ondilo", "ICO", "salud", "nadando", "piscina", "spa", "medidas"],
+        "fr": ["Ondilo", "ICO", "santé", "la natation", "piscine", "spa", "les mesures"],
+        "it": ["Ondilo", "ICO", "salute", "nuoto", "piscina", "spa", "le misure"],
+        "nl": ["Ondilo", "ICO", "gezondheid", "zwembad", "bad", "badplaats", "metingen"],
+        "no": ["Ondilo", "ICO", "Helse", "svømming", "basseng", "spa", "målinger"],
+        "sv": ["Ondilo", "ICO", "hälsa", "simning", "slå samman", "spa", "åtgärder"]
+    },
+    "images": {
+        "large": "/assets/images/large.png",
+        "small": "/assets/images/small.png"
+    },
+    "permissions": [],
+    "author": {
         "name": "Edwin van de Pol",
         "email": "developer@edwinvandepol.nl"
-      }
-    ],
-    "translators": [
-      {
-        "name": "🇫🇷 François Akermann"
-      }
-    ]
-  },
-  "contributing": {
-    "donate": {
-      "paypal": {
-        "username": "edwinvdpol"
-      }
-    }
-  },
-  "homeyCommunityTopicId": 37536,
-  "source": "https://github.com/edwinvdpol/com.ondilo.ico",
-  "support": "https://community.athom.com/t/37536"
+    },
+    "contributors": {
+        "developers": [
+            {
+                "name": "Edwin van de Pol",
+                "email": "developer@edwinvandepol.nl"
+            }
+        ],
+        "translators": [
+            {
+                "name": "🇫🇷 François Akermann"
+            }
+        ]
+    },
+    "contributing": {
+        "donate": {
+            "paypal": {
+                "username": "edwinvdpol"
+            }
+        }
+    },
+    "homeyCommunityTopicId": 37536,
+    "source": "https://github.com/edwinvdpol/com.ondilo.ico",
+    "support": "https://community.athom.com/t/37536"
 }
