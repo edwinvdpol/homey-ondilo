@@ -53,6 +53,7 @@
             "type": "group",
             "label": {
                 "en": "Properties",
+                "de": "Eigenschaften",
                 "fr": "Propriétés",
                 "nl": "Eigenschappen"
             },
@@ -62,6 +63,7 @@
                     "type": "label",
                     "label": {
                         "en": "Total Volume",
+                        "de": "Volle Lautstärke",
                         "fr": "Volume total",
                         "nl": "Totaal volume"
                     },
@@ -72,6 +74,7 @@
                     "type": "label",
                     "label": {
                         "en": "Serial Number",
+                        "de": "Ordnungsnummer",
                         "fr": "Numéro de série",
                         "nl": "Serienummer"
                     },
@@ -82,6 +85,7 @@
                     "type": "label",
                     "label": {
                         "en": "Software Version",
+                        "de": "Softwareversion",
                         "fr": "Une version de logiciel",
                         "nl": "Software versie"
                     },

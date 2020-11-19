@@ -1,6 +1,7 @@
 {
     "title": {
         "en": "The RSSI changed",
+        "de": "Der RSSI hat sich geändert",
         "fr": "Le RSSI a changé",
         "nl": "De RSSI is veranderd"
     },

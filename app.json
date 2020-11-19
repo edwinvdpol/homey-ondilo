@@ -10,6 +10,7 @@
   },
   "description": {
     "en": "Simplify your pool maintenance",
+    "de": "Vereinfachen Sie die Wartung Ihres Pools",
     "fr": "Simplifiez l'entretien de votre piscine",
     "nl": "Vereenvoudig uw zwembadonderhoud"
   },
@@ -25,6 +26,15 @@
       "pool",
       "spa",
       "measures"
+    ],
+    "de": [
+      "Ondilo",
+      "ICO",
+      "Gesundheit",
+      "Schwimmen",
+      "Schwimmbad",
+      "Spa",
+      "Maße"
     ],
     "fr": [
       "Ondilo",
@@ -83,6 +93,7 @@
         "id": "measure_orp_changed",
         "title": {
           "en": "The redox changed",
+          "de": "Das Redox hat sich geändert",
           "fr": "La redox a changé",
           "nl": "De redox is veranderd"
         },
@@ -108,6 +119,7 @@
         "id": "measure_ph_changed",
         "title": {
           "en": "The pH changed",
+          "de": "Der pH hat sich geändert",
           "fr": "La pH a changé",
           "nl": "De pH is veranderd"
         },
@@ -133,6 +145,7 @@
         "id": "measure_rssi_changed",
         "title": {
           "en": "The RSSI changed",
+          "de": "Der RSSI hat sich geändert",
           "fr": "Le RSSI a changé",
           "nl": "De RSSI is veranderd"
         },
@@ -158,6 +171,7 @@
         "id": "measure_salt_changed",
         "title": {
           "en": "The salinity changed",
+          "de": "Der Salzgehalt hat sich geändert",
           "fr": "La salinité a changé",
           "nl": "Het zoutgehalte is veranderd"
         },
@@ -166,6 +180,7 @@
             "name": "measure_salt",
             "title": {
               "en": "Salinity",
+              "de": "Salzgehalt",
               "fr": "Salinité",
               "nl": "Zoutgehalte"
             },
@@ -185,6 +200,7 @@
         "id": "measure_tds_changed",
         "title": {
           "en": "The TDS changed",
+          "de": "Das TDS hat sich geändert",
           "fr": "La TDS a changé",
           "nl": "De TDS is veranderd"
         },
@@ -210,6 +226,7 @@
         "id": "measure_orp_changed",
         "title": {
           "en": "The redox changed",
+          "de": "Das Redox hat sich geändert",
           "fr": "La redox a changé",
           "nl": "De redox is veranderd"
         },
@@ -235,6 +252,7 @@
         "id": "measure_ph_changed",
         "title": {
           "en": "The pH changed",
+          "de": "Der pH hat sich geändert",
           "fr": "La pH a changé",
           "nl": "De pH is veranderd"
         },
@@ -260,6 +278,7 @@
         "id": "measure_rssi_changed",
         "title": {
           "en": "The RSSI changed",
+          "de": "Der RSSI hat sich geändert",
           "fr": "Le RSSI a changé",
           "nl": "De RSSI is veranderd"
         },
@@ -285,6 +304,7 @@
         "id": "measure_salt_changed",
         "title": {
           "en": "The salinity changed",
+          "de": "Der Salzgehalt hat sich geändert",
           "fr": "La salinité a changé",
           "nl": "Het zoutgehalte is veranderd"
         },
@@ -293,6 +313,7 @@
             "name": "measure_salt",
             "title": {
               "en": "Salinity",
+              "de": "Salzgehalt",
               "fr": "Salinité",
               "nl": "Zoutgehalte"
             },
@@ -312,6 +333,7 @@
         "id": "measure_tds_changed",
         "title": {
           "en": "The TDS changed",
+          "de": "Das TDS hat sich geändert",
           "fr": "La TDS a changé",
           "nl": "De TDS is veranderd"
         },
@@ -384,6 +406,7 @@
           "type": "group",
           "label": {
             "en": "Properties",
+            "de": "Eigenschaften",
             "fr": "Propriétés",
             "nl": "Eigenschappen"
           },
@@ -393,6 +416,7 @@
               "type": "label",
               "label": {
                 "en": "Total Volume",
+                "de": "Volle Lautstärke",
                 "fr": "Volume total",
                 "nl": "Totaal volume"
               },
@@ -403,6 +427,7 @@
               "type": "label",
               "label": {
                 "en": "Serial Number",
+                "de": "Ordnungsnummer",
                 "fr": "Numéro de série",
                 "nl": "Serienummer"
               },
@@ -413,6 +438,7 @@
               "type": "label",
               "label": {
                 "en": "Software Version",
+                "de": "Softwareversion",
                 "fr": "Une version de logiciel",
                 "nl": "Software versie"
               },
@@ -472,6 +498,7 @@
           "type": "group",
           "label": {
             "en": "Properties",
+            "de": "Eigenschaften",
             "fr": "Propriétés",
             "nl": "Eigenschappen"
           },
@@ -481,6 +508,7 @@
               "type": "label",
               "label": {
                 "en": "Total Volume",
+                "de": "Volle Lautstärke",
                 "fr": "Volume total",
                 "nl": "Totaal volume"
               },
@@ -491,6 +519,7 @@
               "type": "label",
               "label": {
                 "en": "Serial Number",
+                "de": "Ordnungsnummer",
                 "fr": "Numéro de série",
                 "nl": "Serienummer"
               },
@@ -501,6 +530,7 @@
               "type": "label",
               "label": {
                 "en": "Software Version",
+                "de": "Softwareversion",
                 "fr": "Une version de logiciel",
                 "nl": "Software versie"
               },
@@ -527,6 +557,7 @@
       "insights": true,
       "desc": {
         "en": "Redox in millivolts (mV)",
+        "de": "Redox in Millivolt (mV)",
         "fr": "Redox en millivolts (mV)",
         "nl": "Redox in millivolt (mV)"
       },
@@ -562,6 +593,7 @@
       "max": 100,
       "desc": {
         "en": "Received signal strength indicator in percentage (%)",
+        "de": "Anzeige der empfangenen Signalstärke in Prozent (%)",
         "fr": "Indicateur de force du signal reçu en pourcentage (%)",
         "nl": "Indicator ontvangen signaalsterkte in procenten (%)"
       },
@@ -573,6 +605,7 @@
       "type": "number",
       "title": {
         "en": "Salinity",
+        "de": "Salzgehalt",
         "fr": "Salinité",
         "nl": "Zoutgehalte"
       },
@@ -585,6 +618,7 @@
       "insights": true,
       "desc": {
         "en": "Salinity in milligrams per liter (mg/L)",
+        "de": "Salzgehalt in Milligramm pro Liter (mg/L)",
         "fr": "Salinité en milligrammes par litre (mg/L)",
         "nl": "Zoutgehalte in milligram per liter (mg/L)"
       },
@@ -605,6 +639,7 @@
       "insights": true,
       "desc": {
         "en": "TDS in parts-per-million (ppm)",
+        "de": "TDS in Teilen pro Million (ppm)",
         "fr": "TDS en parts par million (ppm)",
         "nl": "TDS deeltjes per miljoen (ppm)"
       },

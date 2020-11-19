@@ -1,11 +1,13 @@
 {
   "1.0.0": {
     "en": "Initial release",
+    "de": "Erstveröffentlichung",
     "fr": "Première version",
     "nl": "Eerste release"
   },
   "1.0.1": {
     "en": "Fixed application name",
+    "de": "Name der Anwendung geändert",
     "fr": "Nom de l'application modifié",
     "nl": "Naam van applicatie aangepast"
   }

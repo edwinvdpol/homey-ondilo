@@ -9,6 +9,7 @@
   },
   "description": {
     "en": "Simplify your pool maintenance",
+    "de": "Vereinfachen Sie die Wartung Ihres Pools",
     "fr": "Simplifiez l'entretien de votre piscine",
     "nl": "Vereenvoudig uw zwembadonderhoud"
   },
@@ -24,6 +25,15 @@
       "pool",
       "spa",
       "measures"
+    ],
+    "de": [
+      "Ondilo",
+      "ICO",
+      "Gesundheit",
+      "Schwimmen",
+      "Schwimmbad",
+      "Spa",
+      "Maße"
     ],
     "fr": [
       "Ondilo",

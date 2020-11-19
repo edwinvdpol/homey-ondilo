@@ -11,6 +11,7 @@
     "insights": true,
     "desc": {
 		"en": "Redox in millivolts (mV)",
+		"de": "Redox in Millivolt (mV)",
 		"fr": "Redox en millivolts (mV)",
 		"nl": "Redox in millivolt (mV)"
 	},
