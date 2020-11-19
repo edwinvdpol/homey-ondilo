@@ -3,6 +3,7 @@
     "title": {
         "en": "Salinity",
         "de": "Salzgehalt",
+        "es": "Salinidad",
         "fr": "Salinité",
         "it": "Salinità",
         "nl": "Zoutgehalte"
@@ -17,6 +18,7 @@
     "desc": {
         "en": "Salinity in milligrams per liter (mg/L)",
         "de": "Salzgehalt in Milligramm pro Liter (mg/L)",
+        "es": "Salinidad en miligramos por litro (mg/L)",
         "fr": "Salinité en milligrammes par litre (mg/L)",
         "it": "Salinità in milligrammi per litro (mg/L)",
         "nl": "Zoutgehalte in milligram per liter (mg/L)"

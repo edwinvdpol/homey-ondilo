@@ -2,6 +2,7 @@
     "title": {
         "en": "The salinity changed",
         "de": "Der Salzgehalt hat sich geändert",
+        "es": "La salinidad ha cambiado",
         "fr": "La salinité a changé",
         "it": "La salinità è cambiata",
         "nl": "Het zoutgehalte is veranderd"
@@ -12,6 +13,7 @@
             "title": {
                 "en": "Salinity",
                 "de": "Salzgehalt",
+                "es": "Salinidad",
                 "fr": "Salinité",
                 "it": "Salinità",
                 "nl": "Zoutgehalte"

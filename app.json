@@ -11,6 +11,7 @@
   "description": {
     "en": "Simplify your pool maintenance",
     "de": "Vereinfachen Sie die Wartung Ihres Pools",
+    "es": "Simplifique el mantenimiento de su piscina",
     "fr": "Simplifiez l'entretien de votre piscine",
     "it": "Semplifica la manutenzione della tua piscina",
     "nl": "Vereenvoudig uw zwembadonderhoud"
@@ -36,6 +37,15 @@
       "Schwimmbad",
       "Spa",
       "Maße"
+    ],
+    "es": [
+      "Ondilo",
+      "ICO",
+      "salud",
+      "nadando",
+      "piscina",
+      "spa",
+      "medidas"
     ],
     "fr": [
       "Ondilo",
@@ -104,6 +114,7 @@
         "title": {
           "en": "The redox value changed",
           "de": "Der Redoxwert hat sich geändert",
+          "es": "El valor redox ha cambiado",
           "fr": "La valeur redox a changé",
           "it": "Il valore redox è cambiato",
           "nl": "De redoxwaarde is veranderd"
@@ -131,6 +142,7 @@
         "title": {
           "en": "The pH value changed",
           "de": "Der pH-Wert hat sich geändert",
+          "es": "El valor de pH ha cambiado",
           "fr": "La valeur du pH a changé",
           "it": "Il valore del pH è cambiato",
           "nl": "De pH waarde is veranderd"
@@ -158,6 +170,7 @@
         "title": {
           "en": "The RSSI changed",
           "de": "Der RSSI hat sich geändert",
+          "es": "El RSSI ha cambiado",
           "fr": "Le RSSI a changé",
           "it": "L'RSSI è cambiato",
           "nl": "De RSSI is veranderd"
@@ -185,6 +198,7 @@
         "title": {
           "en": "The salinity changed",
           "de": "Der Salzgehalt hat sich geändert",
+          "es": "La salinidad ha cambiado",
           "fr": "La salinité a changé",
           "it": "La salinità è cambiata",
           "nl": "Het zoutgehalte is veranderd"
@@ -195,6 +209,7 @@
             "title": {
               "en": "Salinity",
               "de": "Salzgehalt",
+              "es": "Salinidad",
               "fr": "Salinité",
               "it": "Salinità",
               "nl": "Zoutgehalte"
@@ -216,6 +231,7 @@
         "title": {
           "en": "The TDS changed",
           "de": "Das TDS hat sich geändert",
+          "es": "El TDS ha cambiado",
           "fr": "La TDS a changé",
           "it": "Il TDS è cambiato",
           "nl": "De TDS is veranderd"
@@ -243,6 +259,7 @@
         "title": {
           "en": "The redox value changed",
           "de": "Der Redoxwert hat sich geändert",
+          "es": "El valor redox ha cambiado",
           "fr": "La valeur redox a changé",
           "it": "Il valore redox è cambiato",
           "nl": "De redoxwaarde is veranderd"
@@ -270,6 +287,7 @@
         "title": {
           "en": "The pH value changed",
           "de": "Der pH-Wert hat sich geändert",
+          "es": "El valor de pH ha cambiado",
           "fr": "La valeur du pH a changé",
           "it": "Il valore del pH è cambiato",
           "nl": "De pH waarde is veranderd"
@@ -297,6 +315,7 @@
         "title": {
           "en": "The RSSI changed",
           "de": "Der RSSI hat sich geändert",
+          "es": "El RSSI ha cambiado",
           "fr": "Le RSSI a changé",
           "it": "L'RSSI è cambiato",
           "nl": "De RSSI is veranderd"
@@ -324,6 +343,7 @@
         "title": {
           "en": "The salinity changed",
           "de": "Der Salzgehalt hat sich geändert",
+          "es": "La salinidad ha cambiado",
           "fr": "La salinité a changé",
           "it": "La salinità è cambiata",
           "nl": "Het zoutgehalte is veranderd"
@@ -334,6 +354,7 @@
             "title": {
               "en": "Salinity",
               "de": "Salzgehalt",
+              "es": "Salinidad",
               "fr": "Salinité",
               "it": "Salinità",
               "nl": "Zoutgehalte"
@@ -355,6 +376,7 @@
         "title": {
           "en": "The TDS changed",
           "de": "Das TDS hat sich geändert",
+          "es": "El TDS ha cambiado",
           "fr": "La TDS a changé",
           "it": "Il TDS è cambiato",
           "nl": "De TDS is veranderd"
@@ -429,6 +451,7 @@
           "label": {
             "en": "Properties",
             "de": "Eigenschaften",
+            "es": "Propiedades",
             "fr": "Propriétés",
             "it": "Proprietà",
             "nl": "Eigenschappen"
@@ -440,6 +463,7 @@
               "label": {
                 "en": "Total Volume",
                 "de": "Volle Lautstärke",
+                "es": "Volumen total",
                 "fr": "Volume total",
                 "it": "Volume totale",
                 "nl": "Totaal volume"
@@ -452,6 +476,7 @@
               "label": {
                 "en": "Serial Number",
                 "de": "Ordnungsnummer",
+                "es": "Número de serie",
                 "fr": "Numéro de série",
                 "it": "Numero di serie",
                 "nl": "Serienummer"
@@ -464,6 +489,7 @@
               "label": {
                 "en": "Software Version",
                 "de": "Softwareversion",
+                "es": "Versión del software",
                 "fr": "Une version de logiciel",
                 "it": "Versione software",
                 "nl": "Software versie"
@@ -525,6 +551,7 @@
           "label": {
             "en": "Properties",
             "de": "Eigenschaften",
+            "es": "Propiedades",
             "fr": "Propriétés",
             "it": "Proprietà",
             "nl": "Eigenschappen"
@@ -536,6 +563,7 @@
               "label": {
                 "en": "Total Volume",
                 "de": "Volle Lautstärke",
+                "es": "Volumen total",
                 "fr": "Volume total",
                 "it": "Volume totale",
                 "nl": "Totaal volume"
@@ -548,6 +576,7 @@
               "label": {
                 "en": "Serial Number",
                 "de": "Ordnungsnummer",
+                "es": "Número de serie",
                 "fr": "Numéro de série",
                 "it": "Numero di serie",
                 "nl": "Serienummer"
@@ -560,6 +589,7 @@
               "label": {
                 "en": "Software Version",
                 "de": "Softwareversion",
+                "es": "Versión del software",
                 "fr": "Une version de logiciel",
                 "it": "Versione software",
                 "nl": "Software versie"
@@ -579,6 +609,7 @@
       "title": {
         "en": "Redox value",
         "de": "Redoxwert",
+        "es": "Valor redox",
         "fr": "Valeur redox",
         "it": "Valore redox",
         "nl": "Redoxwaarde"
@@ -592,6 +623,7 @@
       "desc": {
         "en": "Redox value in millivolts (mV)",
         "de": "Redoxwert in Millivolt (mV)",
+        "es": "Valor redox en milivoltios (mV)",
         "fr": "Valeur redox en millivolts (mV)",
         "it": "Valore redox in millivolt (mV)",
         "nl": "Redoxwaarde in millivolt (mV)"
@@ -605,6 +637,7 @@
       "title": {
         "en": "pH value",
         "de": "pH-Wert",
+        "es": "Valor de pH",
         "fr": "Valeur du pH",
         "it": "Valore del pH",
         "nl": "pH waarde"
@@ -633,6 +666,7 @@
       "desc": {
         "en": "Received signal strength indicator in percentage (%)",
         "de": "Anzeige der empfangenen Signalstärke in Prozent (%)",
+        "es": "Indicador de intensidad de la señal recibida en porcentaje (%)",
         "fr": "Indicateur de force du signal reçu en pourcentage (%)",
         "it": "Indicatore di potenza del segnale ricevuto in percentuale (%)",
         "nl": "Indicator ontvangen signaalsterkte in procenten (%)"
@@ -646,6 +680,7 @@
       "title": {
         "en": "Salinity",
         "de": "Salzgehalt",
+        "es": "Salinidad",
         "fr": "Salinité",
         "it": "Salinità",
         "nl": "Zoutgehalte"
@@ -660,6 +695,7 @@
       "desc": {
         "en": "Salinity in milligrams per liter (mg/L)",
         "de": "Salzgehalt in Milligramm pro Liter (mg/L)",
+        "es": "Salinidad en miligramos por litro (mg/L)",
         "fr": "Salinité en milligrammes par litre (mg/L)",
         "it": "Salinità in milligrammi per litro (mg/L)",
         "nl": "Zoutgehalte in milligram per liter (mg/L)"
@@ -682,6 +718,7 @@
       "desc": {
         "en": "TDS in parts-per-million (ppm)",
         "de": "TDS in Teilen pro Million (ppm)",
+        "es": "TDS en partes por millón (ppm)",
         "fr": "TDS en parts par million (ppm)",
         "it": "TDS in parti per milione (ppm)",
         "nl": "TDS deeltjes per miljoen (ppm)"
