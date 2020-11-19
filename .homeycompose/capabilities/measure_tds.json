@@ -11,6 +11,7 @@
     "insights": true,
     "desc": {
         "en": "TDS in parts-per-million (ppm)",
+        "da": "TDS-dele pr. Million (ppm)",
         "de": "TDS in Teilen pro Million (ppm)",
         "es": "TDS en partes por millón (ppm)",
         "fr": "TDS en parts par million (ppm)",

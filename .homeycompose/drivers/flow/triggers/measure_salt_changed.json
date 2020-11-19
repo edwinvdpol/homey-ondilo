@@ -1,6 +1,7 @@
 {
     "title": {
         "en": "The salinity changed",
+        "da": "Saltindholdet har ændret sig",
         "de": "Der Salzgehalt hat sich geändert",
         "es": "La salinidad ha cambiado",
         "fr": "La salinité a changé",
@@ -14,6 +15,7 @@
             "name": "measure_salt",
             "title": {
                 "en": "Salinity",
+                "da": "Saltindhold",
                 "de": "Salzgehalt",
                 "es": "Salinidad",
                 "fr": "Salinité",

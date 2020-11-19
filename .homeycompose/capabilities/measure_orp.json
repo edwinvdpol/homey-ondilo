@@ -2,6 +2,7 @@
     "type": "number",
     "title": {
         "en": "Redox value",
+        "da": "Redox-værdi",
         "de": "Redoxwert",
         "es": "Valor redox",
         "fr": "Valeur redox",
@@ -18,6 +19,7 @@
     "insights": true,
     "desc": {
 		"en": "Redox value in millivolts (mV)",
+		"da": "Redoxværdi i millivolt (mV)",
 		"de": "Redoxwert in Millivolt (mV)",
 		"es": "Valor redox en milivoltios (mV)",
 		"fr": "Valeur redox en millivolts (mV)",

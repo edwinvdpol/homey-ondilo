@@ -1,22 +1,24 @@
 {
-  "1.0.0": {
-    "en": "Initial release",
-    "de": "Erstveröffentlichung",
-    "es": "Versión inicial",
-    "fr": "Première version",
-    "it": "Versione iniziale",
-    "nl": "Eerste release",
-    "no": "Første utgivelse",
-    "sv": "Första utgåvan"
-  },
-  "1.0.1": {
-    "en": "Fixed application name",
-    "de": "Name der Anwendung geändert",
-    "es": "Se cambió el nombre de la aplicación",
-    "fr": "Nom de l'application modifié",
-    "it": "Nome dell'applicazione modificato",
-    "nl": "Naam van applicatie aangepast",
-    "no": "Søknadens navn er endret",
-    "sv": "Ansökan har ändrats"
-  }
+    "1.0.0": {
+        "en": "Initial release",
+        "da": "Første udgivelse",
+        "de": "Erstveröffentlichung",
+        "es": "Versión inicial",
+        "fr": "Première version",
+        "it": "Versione iniziale",
+        "nl": "Eerste release",
+        "no": "Første utgivelse",
+        "sv": "Första utgåvan"
+    },
+    "1.0.1": {
+        "en": "Fixed application name",
+        "da": "Ansøgningens navn er ændret",
+        "de": "Name der Anwendung geändert",
+        "es": "Se cambió el nombre de la aplicación",
+        "fr": "Nom de l'application modifié",
+        "it": "Nome dell'applicazione modificato",
+        "nl": "Naam van applicatie aangepast",
+        "no": "Søknadens navn er endret",
+        "sv": "Ansökan har ändrats"
+    }
 }

@@ -2,6 +2,7 @@
     "type": "number",
     "title": {
         "en": "pH value",
+        "da": "pH-værdi",
         "de": "pH-Wert",
         "es": "Valor de pH",
         "fr": "Valeur du pH",

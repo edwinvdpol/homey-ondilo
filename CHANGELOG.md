@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Spanish translation
 - Swedish translation
 - Norwegian translation
+- Danish translation
 
 ### Changed
 - Changed several translations

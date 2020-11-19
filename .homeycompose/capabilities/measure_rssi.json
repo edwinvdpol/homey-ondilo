@@ -13,6 +13,7 @@
     "max": 100,
     "desc": {
         "en": "Received signal strength indicator in percentage (%)",
+        "da": "Modtaget signalstyrkeindikator i procent (%)",
         "de": "Anzeige der empfangenen Signalstärke in Prozent (%)",
         "es": "Indicador de intensidad de la señal recibida en porcentaje (%)",
         "fr": "Indicateur de force du signal reçu en pourcentage (%)",

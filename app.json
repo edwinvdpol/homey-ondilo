@@ -10,6 +10,7 @@
   },
   "description": {
     "en": "Simplify your pool maintenance",
+    "da": "Forenkle din poolvedligeholdelse",
     "de": "Vereinfachen Sie die Wartung Ihres Pools",
     "es": "Simplifique el mantenimiento de su piscina",
     "fr": "Simplifiez l'entretien de votre piscine",
@@ -30,6 +31,15 @@
       "pool",
       "spa",
       "measures"
+    ],
+    "da": [
+      "Ondilo",
+      "ICO",
+      "sundhed",
+      "svømning",
+      "pool",
+      "spa",
+      "foranstaltninger"
     ],
     "de": [
       "Ondilo",
@@ -133,6 +143,7 @@
         "id": "measure_orp_changed",
         "title": {
           "en": "The redox value changed",
+          "da": "Redoxværdien er ændret",
           "de": "Der Redoxwert hat sich geändert",
           "es": "El valor redox ha cambiado",
           "fr": "La valeur redox a changé",
@@ -163,6 +174,7 @@
         "id": "measure_ph_changed",
         "title": {
           "en": "The pH value changed",
+          "da": "PH-værdien er ændret",
           "de": "Der pH-Wert hat sich geändert",
           "es": "El valor de pH ha cambiado",
           "fr": "La valeur du pH a changé",
@@ -193,6 +205,7 @@
         "id": "measure_rssi_changed",
         "title": {
           "en": "The RSSI changed",
+          "da": "RSSI er ændret",
           "de": "Der RSSI hat sich geändert",
           "es": "El RSSI ha cambiado",
           "fr": "Le RSSI a changé",
@@ -223,6 +236,7 @@
         "id": "measure_salt_changed",
         "title": {
           "en": "The salinity changed",
+          "da": "Saltindholdet har ændret sig",
           "de": "Der Salzgehalt hat sich geändert",
           "es": "La salinidad ha cambiado",
           "fr": "La salinité a changé",
@@ -236,6 +250,7 @@
             "name": "measure_salt",
             "title": {
               "en": "Salinity",
+              "da": "Saltindhold",
               "de": "Salzgehalt",
               "es": "Salinidad",
               "fr": "Salinité",
@@ -260,6 +275,7 @@
         "id": "measure_tds_changed",
         "title": {
           "en": "The TDS changed",
+          "da": "TDS er ændret",
           "de": "Das TDS hat sich geändert",
           "es": "El TDS ha cambiado",
           "fr": "La TDS a changé",
@@ -290,6 +306,7 @@
         "id": "measure_orp_changed",
         "title": {
           "en": "The redox value changed",
+          "da": "Redoxværdien er ændret",
           "de": "Der Redoxwert hat sich geändert",
           "es": "El valor redox ha cambiado",
           "fr": "La valeur redox a changé",
@@ -320,6 +337,7 @@
         "id": "measure_ph_changed",
         "title": {
           "en": "The pH value changed",
+          "da": "PH-værdien er ændret",
           "de": "Der pH-Wert hat sich geändert",
           "es": "El valor de pH ha cambiado",
           "fr": "La valeur du pH a changé",
@@ -350,6 +368,7 @@
         "id": "measure_rssi_changed",
         "title": {
           "en": "The RSSI changed",
+          "da": "RSSI er ændret",
           "de": "Der RSSI hat sich geändert",
           "es": "El RSSI ha cambiado",
           "fr": "Le RSSI a changé",
@@ -380,6 +399,7 @@
         "id": "measure_salt_changed",
         "title": {
           "en": "The salinity changed",
+          "da": "Saltindholdet har ændret sig",
           "de": "Der Salzgehalt hat sich geändert",
           "es": "La salinidad ha cambiado",
           "fr": "La salinité a changé",
@@ -393,6 +413,7 @@
             "name": "measure_salt",
             "title": {
               "en": "Salinity",
+              "da": "Saltindhold",
               "de": "Salzgehalt",
               "es": "Salinidad",
               "fr": "Salinité",
@@ -417,6 +438,7 @@
         "id": "measure_tds_changed",
         "title": {
           "en": "The TDS changed",
+          "da": "TDS er ændret",
           "de": "Das TDS hat sich geändert",
           "es": "El TDS ha cambiado",
           "fr": "La TDS a changé",
@@ -494,6 +516,7 @@
           "type": "group",
           "label": {
             "en": "Properties",
+            "da": "Ejendomme",
             "de": "Eigenschaften",
             "es": "Propiedades",
             "fr": "Propriétés",
@@ -508,6 +531,7 @@
               "type": "label",
               "label": {
                 "en": "Total Volume",
+                "da": "Samlet volumen",
                 "de": "Volle Lautstärke",
                 "es": "Volumen total",
                 "fr": "Volume total",
@@ -523,6 +547,7 @@
               "type": "label",
               "label": {
                 "en": "Serial Number",
+                "da": "Serienummer",
                 "de": "Ordnungsnummer",
                 "es": "Número de serie",
                 "fr": "Numéro de série",
@@ -538,6 +563,7 @@
               "type": "label",
               "label": {
                 "en": "Software Version",
+                "da": "Softwareversion",
                 "de": "Softwareversion",
                 "es": "Versión del software",
                 "fr": "Une version de logiciel",
@@ -602,6 +628,7 @@
           "type": "group",
           "label": {
             "en": "Properties",
+            "da": "Ejendomme",
             "de": "Eigenschaften",
             "es": "Propiedades",
             "fr": "Propriétés",
@@ -616,6 +643,7 @@
               "type": "label",
               "label": {
                 "en": "Total Volume",
+                "da": "Samlet volumen",
                 "de": "Volle Lautstärke",
                 "es": "Volumen total",
                 "fr": "Volume total",
@@ -631,6 +659,7 @@
               "type": "label",
               "label": {
                 "en": "Serial Number",
+                "da": "Serienummer",
                 "de": "Ordnungsnummer",
                 "es": "Número de serie",
                 "fr": "Numéro de série",
@@ -646,6 +675,7 @@
               "type": "label",
               "label": {
                 "en": "Software Version",
+                "da": "Softwareversion",
                 "de": "Softwareversion",
                 "es": "Versión del software",
                 "fr": "Une version de logiciel",
@@ -668,6 +698,7 @@
       "type": "number",
       "title": {
         "en": "Redox value",
+        "da": "Redox-værdi",
         "de": "Redoxwert",
         "es": "Valor redox",
         "fr": "Valeur redox",
@@ -684,6 +715,7 @@
       "insights": true,
       "desc": {
         "en": "Redox value in millivolts (mV)",
+        "da": "Redoxværdi i millivolt (mV)",
         "de": "Redoxwert in Millivolt (mV)",
         "es": "Valor redox en milivoltios (mV)",
         "fr": "Valeur redox en millivolts (mV)",
@@ -700,6 +732,7 @@
       "type": "number",
       "title": {
         "en": "pH value",
+        "da": "pH-værdi",
         "de": "pH-Wert",
         "es": "Valor de pH",
         "fr": "Valeur du pH",
@@ -731,6 +764,7 @@
       "max": 100,
       "desc": {
         "en": "Received signal strength indicator in percentage (%)",
+        "da": "Modtaget signalstyrkeindikator i procent (%)",
         "de": "Anzeige der empfangenen Signalstärke in Prozent (%)",
         "es": "Indicador de intensidad de la señal recibida en porcentaje (%)",
         "fr": "Indicateur de force du signal reçu en pourcentage (%)",
@@ -747,6 +781,7 @@
       "type": "number",
       "title": {
         "en": "Salinity",
+        "da": "Saltindhold",
         "de": "Salzgehalt",
         "es": "Salinidad",
         "fr": "Salinité",
@@ -764,6 +799,7 @@
       "insights": true,
       "desc": {
         "en": "Salinity in milligrams per liter (mg/L)",
+        "da": "Saltindhold i milligram pr. Liter (mg/L)",
         "de": "Salzgehalt in Milligramm pro Liter (mg/L)",
         "es": "Salinidad en miligramos por litro (mg/L)",
         "fr": "Salinité en milligrammes par litre (mg/L)",
@@ -789,6 +825,7 @@
       "insights": true,
       "desc": {
         "en": "TDS in parts-per-million (ppm)",
+        "da": "TDS-dele pr. Million (ppm)",
         "de": "TDS in Teilen pro Million (ppm)",
         "es": "TDS en partes por millón (ppm)",
         "fr": "TDS en parts par million (ppm)",
