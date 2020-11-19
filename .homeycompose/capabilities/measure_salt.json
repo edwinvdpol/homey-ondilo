@@ -4,6 +4,7 @@
         "en": "Salinity",
         "de": "Salzgehalt",
         "fr": "Salinité",
+        "it": "Salinità",
         "nl": "Zoutgehalte"
     },
     "uiComponent": "sensor",
@@ -17,6 +18,7 @@
         "en": "Salinity in milligrams per liter (mg/L)",
         "de": "Salzgehalt in Milligramm pro Liter (mg/L)",
         "fr": "Salinité en milligrammes par litre (mg/L)",
+        "it": "Salinità in milligrammi per litro (mg/L)",
         "nl": "Zoutgehalte in milligram per liter (mg/L)"
     },
     "chartType": "spline",

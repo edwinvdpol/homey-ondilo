@@ -12,6 +12,7 @@
     "en": "Simplify your pool maintenance",
     "de": "Vereinfachen Sie die Wartung Ihres Pools",
     "fr": "Simplifiez l'entretien de votre piscine",
+    "it": "Semplifica la manutenzione della tua piscina",
     "nl": "Vereenvoudig uw zwembadonderhoud"
   },
   "category": [
@@ -44,6 +45,15 @@
       "piscine",
       "spa",
       "les mesures"
+    ],
+    "it": [
+      "Ondilo",
+      "ICO",
+      "salute",
+      "nuoto",
+      "piscina",
+      "spa",
+      "le misure"
     ],
     "nl": [
       "Ondilo",
@@ -95,6 +105,7 @@
           "en": "The redox value changed",
           "de": "Der Redoxwert hat sich geändert",
           "fr": "La valeur redox a changé",
+          "it": "Il valore redox è cambiato",
           "nl": "De redoxwaarde is veranderd"
         },
         "tokens": [
@@ -121,6 +132,7 @@
           "en": "The pH value changed",
           "de": "Der pH-Wert hat sich geändert",
           "fr": "La valeur du pH a changé",
+          "it": "Il valore del pH è cambiato",
           "nl": "De pH waarde is veranderd"
         },
         "tokens": [
@@ -147,6 +159,7 @@
           "en": "The RSSI changed",
           "de": "Der RSSI hat sich geändert",
           "fr": "Le RSSI a changé",
+          "it": "L'RSSI è cambiato",
           "nl": "De RSSI is veranderd"
         },
         "tokens": [
@@ -173,6 +186,7 @@
           "en": "The salinity changed",
           "de": "Der Salzgehalt hat sich geändert",
           "fr": "La salinité a changé",
+          "it": "La salinità è cambiata",
           "nl": "Het zoutgehalte is veranderd"
         },
         "tokens": [
@@ -182,6 +196,7 @@
               "en": "Salinity",
               "de": "Salzgehalt",
               "fr": "Salinité",
+              "it": "Salinità",
               "nl": "Zoutgehalte"
             },
             "type": "number",
@@ -202,6 +217,7 @@
           "en": "The TDS changed",
           "de": "Das TDS hat sich geändert",
           "fr": "La TDS a changé",
+          "it": "Il TDS è cambiato",
           "nl": "De TDS is veranderd"
         },
         "tokens": [
@@ -228,6 +244,7 @@
           "en": "The redox value changed",
           "de": "Der Redoxwert hat sich geändert",
           "fr": "La valeur redox a changé",
+          "it": "Il valore redox è cambiato",
           "nl": "De redoxwaarde is veranderd"
         },
         "tokens": [
@@ -254,6 +271,7 @@
           "en": "The pH value changed",
           "de": "Der pH-Wert hat sich geändert",
           "fr": "La valeur du pH a changé",
+          "it": "Il valore del pH è cambiato",
           "nl": "De pH waarde is veranderd"
         },
         "tokens": [
@@ -280,6 +298,7 @@
           "en": "The RSSI changed",
           "de": "Der RSSI hat sich geändert",
           "fr": "Le RSSI a changé",
+          "it": "L'RSSI è cambiato",
           "nl": "De RSSI is veranderd"
         },
         "tokens": [
@@ -306,6 +325,7 @@
           "en": "The salinity changed",
           "de": "Der Salzgehalt hat sich geändert",
           "fr": "La salinité a changé",
+          "it": "La salinità è cambiata",
           "nl": "Het zoutgehalte is veranderd"
         },
         "tokens": [
@@ -315,6 +335,7 @@
               "en": "Salinity",
               "de": "Salzgehalt",
               "fr": "Salinité",
+              "it": "Salinità",
               "nl": "Zoutgehalte"
             },
             "type": "number",
@@ -335,6 +356,7 @@
           "en": "The TDS changed",
           "de": "Das TDS hat sich geändert",
           "fr": "La TDS a changé",
+          "it": "Il TDS è cambiato",
           "nl": "De TDS is veranderd"
         },
         "tokens": [
@@ -408,6 +430,7 @@
             "en": "Properties",
             "de": "Eigenschaften",
             "fr": "Propriétés",
+            "it": "Proprietà",
             "nl": "Eigenschappen"
           },
           "children": [
@@ -418,6 +441,7 @@
                 "en": "Total Volume",
                 "de": "Volle Lautstärke",
                 "fr": "Volume total",
+                "it": "Volume totale",
                 "nl": "Totaal volume"
               },
               "value": "-"
@@ -429,6 +453,7 @@
                 "en": "Serial Number",
                 "de": "Ordnungsnummer",
                 "fr": "Numéro de série",
+                "it": "Numero di serie",
                 "nl": "Serienummer"
               },
               "value": "-"
@@ -440,6 +465,7 @@
                 "en": "Software Version",
                 "de": "Softwareversion",
                 "fr": "Une version de logiciel",
+                "it": "Versione software",
                 "nl": "Software versie"
               },
               "value": "-"
@@ -500,6 +526,7 @@
             "en": "Properties",
             "de": "Eigenschaften",
             "fr": "Propriétés",
+            "it": "Proprietà",
             "nl": "Eigenschappen"
           },
           "children": [
@@ -510,6 +537,7 @@
                 "en": "Total Volume",
                 "de": "Volle Lautstärke",
                 "fr": "Volume total",
+                "it": "Volume totale",
                 "nl": "Totaal volume"
               },
               "value": "-"
@@ -521,6 +549,7 @@
                 "en": "Serial Number",
                 "de": "Ordnungsnummer",
                 "fr": "Numéro de série",
+                "it": "Numero di serie",
                 "nl": "Serienummer"
               },
               "value": "-"
@@ -532,6 +561,7 @@
                 "en": "Software Version",
                 "de": "Softwareversion",
                 "fr": "Une version de logiciel",
+                "it": "Versione software",
                 "nl": "Software versie"
               },
               "value": "-"
@@ -550,6 +580,7 @@
         "en": "Redox value",
         "de": "Redoxwert",
         "fr": "Valeur redox",
+        "it": "Valore redox",
         "nl": "Redoxwaarde"
       },
       "uiComponent": "sensor",
@@ -562,6 +593,7 @@
         "en": "Redox value in millivolts (mV)",
         "de": "Redoxwert in Millivolt (mV)",
         "fr": "Valeur redox en millivolts (mV)",
+        "it": "Valore redox in millivolt (mV)",
         "nl": "Redoxwaarde in millivolt (mV)"
       },
       "chartType": "stepLine",
@@ -574,6 +606,7 @@
         "en": "pH value",
         "de": "pH-Wert",
         "fr": "Valeur du pH",
+        "it": "Valore del pH",
         "nl": "pH waarde"
       },
       "uiComponent": "sensor",
@@ -601,6 +634,7 @@
         "en": "Received signal strength indicator in percentage (%)",
         "de": "Anzeige der empfangenen Signalstärke in Prozent (%)",
         "fr": "Indicateur de force du signal reçu en pourcentage (%)",
+        "it": "Indicatore di potenza del segnale ricevuto in percentuale (%)",
         "nl": "Indicator ontvangen signaalsterkte in procenten (%)"
       },
       "chartType": "spline",
@@ -613,6 +647,7 @@
         "en": "Salinity",
         "de": "Salzgehalt",
         "fr": "Salinité",
+        "it": "Salinità",
         "nl": "Zoutgehalte"
       },
       "uiComponent": "sensor",
@@ -626,6 +661,7 @@
         "en": "Salinity in milligrams per liter (mg/L)",
         "de": "Salzgehalt in Milligramm pro Liter (mg/L)",
         "fr": "Salinité en milligrammes par litre (mg/L)",
+        "it": "Salinità in milligrammi per litro (mg/L)",
         "nl": "Zoutgehalte in milligram per liter (mg/L)"
       },
       "chartType": "spline",
@@ -647,6 +683,7 @@
         "en": "TDS in parts-per-million (ppm)",
         "de": "TDS in Teilen pro Million (ppm)",
         "fr": "TDS en parts par million (ppm)",
+        "it": "TDS in parti per milione (ppm)",
         "nl": "TDS deeltjes per miljoen (ppm)"
       },
       "chartType": "spline",

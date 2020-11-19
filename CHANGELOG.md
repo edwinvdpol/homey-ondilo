@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - German translation
+- Italian translation
 
 ### Changed
 - Changed several translations

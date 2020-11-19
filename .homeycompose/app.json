@@ -11,6 +11,7 @@
     "en": "Simplify your pool maintenance",
     "de": "Vereinfachen Sie die Wartung Ihres Pools",
     "fr": "Simplifiez l'entretien de votre piscine",
+    "it": "Semplifica la manutenzione della tua piscina",
     "nl": "Vereenvoudig uw zwembadonderhoud"
   },
   "category": [
@@ -43,6 +44,15 @@
       "piscine",
       "spa",
       "les mesures"
+    ],
+    "it": [
+      "Ondilo",
+      "ICO",
+      "salute",
+      "nuoto",
+      "piscina",
+      "spa",
+      "le misure"
     ],
     "nl": [
       "Ondilo",

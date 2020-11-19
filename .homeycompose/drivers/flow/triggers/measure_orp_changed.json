@@ -3,6 +3,7 @@
         "en": "The redox value changed",
         "de": "Der Redoxwert hat sich geändert",
         "fr": "La valeur redox a changé",
+        "it": "Il valore redox è cambiato",
         "nl": "De redoxwaarde is veranderd"
     },
     "tokens": [

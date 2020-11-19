@@ -1,0 +1,8 @@
+{
+    "errors": {
+        "401": "Non sei autorizzato a utilizzare l'API!",
+        "404": "Questo dispositivo non è stato trovato!",
+        "50x": "L'API non è disponibile! Riprovare più tardi.",
+        "unknown": "Si è verificato un errore sconosciuto!"
+    }
+}
