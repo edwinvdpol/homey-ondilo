@@ -1,9 +1,9 @@
 {
     "type": "number",
     "title": {
-        "en": "Salt Value",
-        "fr": "Valeur du sel",
-        "nl": "Zout waarde"
+        "en": "Salinity",
+        "fr": "Salinité",
+        "nl": "Zoutgehalte"
     },
     "uiComponent": "sensor",
     "icon": "/assets/salt.svg",
@@ -12,7 +12,7 @@
     "insights": true,
     "desc": {
         "en": "Milligrams of salt per liter (mg/L)",
-        "fr": "Milligrammes de sel par litre (mg / L)",
+        "fr": "Milligrammes de sel par litre (mg/L)",
         "nl": "Milligram zout per liter (mg/L)"
     },
     "chartType": "stepLine",

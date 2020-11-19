@@ -1,9 +1,9 @@
 {
     "type": "number",
     "title": {
-        "en": "TDS Value",
-        "fr": "Valeur TDS",
-        "nl": "TDS waarde"
+        "en": "TDS",
+        "fr": "TDS",
+        "nl": "TDS"
     },
     "uiComponent": "sensor",
     "icon": "/assets/tds.svg",

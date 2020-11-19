@@ -1,16 +1,16 @@
 {
     "title": {
-        "en": "The TDS value changed",
-        "fr": "La valeur TDS a changé",
-        "nl": "De TDS waarde is veranderd"
+        "en": "The TDS changed",
+        "fr": "La TDS a changé",
+        "nl": "De TDS is veranderd"
     },
     "tokens": [
         {
             "name": "measure_tds",
             "title": {
-                "en": "TDS Value",
-                "fr": "Valeur TDS",
-                "nl": "TDS waarde"
+                "en": "TDS",
+                "fr": "TDS",
+                "nl": "TDS"
             },
             "type": "number",
             "example": 400

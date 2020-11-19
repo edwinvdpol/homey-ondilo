@@ -5,6 +5,8 @@
     "nl": "Eerste release"
   },
   "1.0.1": {
-    "en": "Fixed application name"
+    "en": "Fixed application name",
+    "fr": "Nom de l'application modifié",
+    "nl": "Naam van applicatie aangepast"
   }
 }

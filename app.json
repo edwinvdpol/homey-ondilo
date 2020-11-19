@@ -84,17 +84,17 @@
       {
         "id": "measure_orp_changed",
         "title": {
-          "en": "The ORP value changed",
-          "fr": "La valeur ORP a changé",
-          "nl": "De ORP waarde is veranderd"
+          "en": "The redox changed",
+          "fr": "La redox a changé",
+          "nl": "De redox is veranderd"
         },
         "tokens": [
           {
             "name": "measure_orp",
             "title": {
-              "en": "ORP Value",
-              "fr": "Valeur ORP",
-              "nl": "ORP waarde"
+              "en": "Redox",
+              "fr": "Redox",
+              "nl": "Redox"
             },
             "type": "number",
             "example": 400
@@ -111,17 +111,17 @@
       {
         "id": "measure_ph_changed",
         "title": {
-          "en": "The pH value changed",
-          "fr": "La valeur du pH a changé",
-          "nl": "De pH waarde is veranderd"
+          "en": "The pH changed",
+          "fr": "La pH a changé",
+          "nl": "De pH is veranderd"
         },
         "tokens": [
           {
             "name": "measure_ph",
             "title": {
-              "en": "pH Value",
-              "fr": "Valeur pH",
-              "nl": "pH waarde"
+              "en": "pH",
+              "fr": "pH",
+              "nl": "pH"
             },
             "type": "number",
             "example": 7.2
@@ -138,17 +138,17 @@
       {
         "id": "measure_rssi_changed",
         "title": {
-          "en": "The RSSI value changed",
-          "fr": "La valeur RSSI a changé",
-          "nl": "De RSSI waarde is veranderd"
+          "en": "The RSSI changed",
+          "fr": "Le RSSI a changé",
+          "nl": "De RSSI is veranderd"
         },
         "tokens": [
           {
             "name": "measure_rssi",
             "title": {
-              "en": "RSSI Value",
-              "fr": "Valeur RSSI",
-              "nl": "RSSI waarde"
+              "en": "RSSI",
+              "fr": "RSSI",
+              "nl": "RSSI"
             },
             "type": "number",
             "example": 50
@@ -165,17 +165,17 @@
       {
         "id": "measure_salt_changed",
         "title": {
-          "en": "The salt value changed",
-          "fr": "La valeur du sel a changé",
-          "nl": "De zout waarde is veranderd"
+          "en": "The salinity changed",
+          "fr": "La salinité a changé",
+          "nl": "Het zoutgehalte is veranderd"
         },
         "tokens": [
           {
             "name": "measure_salt",
             "title": {
-              "en": "Salt Value",
-              "fr": "Valeur du sel",
-              "nl": "Zout waarde"
+              "en": "Salinity",
+              "fr": "Salinité",
+              "nl": "Zoutgehalte"
             },
             "type": "number",
             "example": 40
@@ -192,17 +192,17 @@
       {
         "id": "measure_tds_changed",
         "title": {
-          "en": "The TDS value changed",
-          "fr": "La valeur TDS a changé",
-          "nl": "De TDS waarde is veranderd"
+          "en": "The TDS changed",
+          "fr": "La TDS a changé",
+          "nl": "De TDS is veranderd"
         },
         "tokens": [
           {
             "name": "measure_tds",
             "title": {
-              "en": "TDS Value",
-              "fr": "Valeur TDS",
-              "nl": "TDS waarde"
+              "en": "TDS",
+              "fr": "TDS",
+              "nl": "TDS"
             },
             "type": "number",
             "example": 400
@@ -219,17 +219,17 @@
       {
         "id": "measure_orp_changed",
         "title": {
-          "en": "The ORP value changed",
-          "fr": "La valeur ORP a changé",
-          "nl": "De ORP waarde is veranderd"
+          "en": "The redox changed",
+          "fr": "La redox a changé",
+          "nl": "De redox is veranderd"
         },
         "tokens": [
           {
             "name": "measure_orp",
             "title": {
-              "en": "ORP Value",
-              "fr": "Valeur ORP",
-              "nl": "ORP waarde"
+              "en": "Redox",
+              "fr": "Redox",
+              "nl": "Redox"
             },
             "type": "number",
             "example": 400
@@ -246,17 +246,17 @@
       {
         "id": "measure_ph_changed",
         "title": {
-          "en": "The pH value changed",
-          "fr": "La valeur du pH a changé",
-          "nl": "De pH waarde is veranderd"
+          "en": "The pH changed",
+          "fr": "La pH a changé",
+          "nl": "De pH is veranderd"
         },
         "tokens": [
           {
             "name": "measure_ph",
             "title": {
-              "en": "pH Value",
-              "fr": "Valeur pH",
-              "nl": "pH waarde"
+              "en": "pH",
+              "fr": "pH",
+              "nl": "pH"
             },
             "type": "number",
             "example": 7.2
@@ -273,17 +273,17 @@
       {
         "id": "measure_rssi_changed",
         "title": {
-          "en": "The RSSI value changed",
-          "fr": "La valeur RSSI a changé",
-          "nl": "De RSSI waarde is veranderd"
+          "en": "The RSSI changed",
+          "fr": "Le RSSI a changé",
+          "nl": "De RSSI is veranderd"
         },
         "tokens": [
           {
             "name": "measure_rssi",
             "title": {
-              "en": "RSSI Value",
-              "fr": "Valeur RSSI",
-              "nl": "RSSI waarde"
+              "en": "RSSI",
+              "fr": "RSSI",
+              "nl": "RSSI"
             },
             "type": "number",
             "example": 50
@@ -300,17 +300,17 @@
       {
         "id": "measure_salt_changed",
         "title": {
-          "en": "The salt value changed",
-          "fr": "La valeur du sel a changé",
-          "nl": "De zout waarde is veranderd"
+          "en": "The salinity changed",
+          "fr": "La salinité a changé",
+          "nl": "Het zoutgehalte is veranderd"
         },
         "tokens": [
           {
             "name": "measure_salt",
             "title": {
-              "en": "Salt Value",
-              "fr": "Valeur du sel",
-              "nl": "Zout waarde"
+              "en": "Salinity",
+              "fr": "Salinité",
+              "nl": "Zoutgehalte"
             },
             "type": "number",
             "example": 40
@@ -327,17 +327,17 @@
       {
         "id": "measure_tds_changed",
         "title": {
-          "en": "The TDS value changed",
-          "fr": "La valeur TDS a changé",
-          "nl": "De TDS waarde is veranderd"
+          "en": "The TDS changed",
+          "fr": "La TDS a changé",
+          "nl": "De TDS is veranderd"
         },
         "tokens": [
           {
             "name": "measure_tds",
             "title": {
-              "en": "TDS Value",
-              "fr": "Valeur TDS",
-              "nl": "TDS waarde"
+              "en": "TDS",
+              "fr": "TDS",
+              "nl": "TDS"
             },
             "type": "number",
             "example": 400
@@ -535,9 +535,9 @@
     "measure_orp": {
       "type": "number",
       "title": {
-        "en": "ORP Value",
-        "fr": "Valeur ORP",
-        "nl": "ORP waarde"
+        "en": "Redox",
+        "fr": "Redox",
+        "nl": "Redox"
       },
       "uiComponent": "sensor",
       "icon": "/assets/orp.svg",
@@ -555,9 +555,9 @@
     "measure_ph": {
       "type": "number",
       "title": {
-        "en": "pH Value",
-        "fr": "Valeur pH",
-        "nl": "pH waarde"
+        "en": "pH",
+        "fr": "pH",
+        "nl": "pH"
       },
       "uiComponent": "sensor",
       "icon": "/assets/ph.svg",
@@ -570,9 +570,9 @@
     "measure_rssi": {
       "type": "number",
       "title": {
-        "en": "RSSI Value",
-        "fr": "Valeur RSSI",
-        "nl": "RSSI waarde"
+        "en": "RSSI",
+        "fr": "RSSI",
+        "nl": "RSSI"
       },
       "uiComponent": "sensor",
       "icon": "/assets/rssi.svg",
@@ -592,9 +592,9 @@
     "measure_salt": {
       "type": "number",
       "title": {
-        "en": "Salt Value",
-        "fr": "Valeur du sel",
-        "nl": "Zout waarde"
+        "en": "Salinity",
+        "fr": "Salinité",
+        "nl": "Zoutgehalte"
       },
       "uiComponent": "sensor",
       "icon": "/assets/salt.svg",
@@ -603,7 +603,7 @@
       "insights": true,
       "desc": {
         "en": "Milligrams of salt per liter (mg/L)",
-        "fr": "Milligrammes de sel par litre (mg / L)",
+        "fr": "Milligrammes de sel par litre (mg/L)",
         "nl": "Milligram zout per liter (mg/L)"
       },
       "chartType": "stepLine",
@@ -613,9 +613,9 @@
     "measure_tds": {
       "type": "number",
       "title": {
-        "en": "TDS Value",
-        "fr": "Valeur TDS",
-        "nl": "TDS waarde"
+        "en": "TDS",
+        "fr": "TDS",
+        "nl": "TDS"
       },
       "uiComponent": "sensor",
       "icon": "/assets/tds.svg",

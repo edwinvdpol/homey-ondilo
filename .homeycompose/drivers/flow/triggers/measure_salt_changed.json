@@ -1,16 +1,16 @@
 {
     "title": {
-        "en": "The salt value changed",
-        "fr": "La valeur du sel a changé",
-        "nl": "De zout waarde is veranderd"
+        "en": "The salinity changed",
+        "fr": "La salinité a changé",
+        "nl": "Het zoutgehalte is veranderd"
     },
     "tokens": [
         {
             "name": "measure_salt",
             "title": {
-                "en": "Salt Value",
-                "fr": "Valeur du sel",
-                "nl": "Zout waarde"
+                "en": "Salinity",
+                "fr": "Salinité",
+                "nl": "Zoutgehalte"
             },
             "type": "number",
             "example": 40

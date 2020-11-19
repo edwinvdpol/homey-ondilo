@@ -3,11 +3,11 @@ ICO houdt toezicht op uw zwembad / spa.
 Het analyseert uw waterkwaliteit, helpt u bij uw onderhoud en anticipeert op veranderingen in het weer.
 
 Functies zijn onder meer:
-- Lees het potentieel voor oxidatie-reductie
+- Lees de redox waarde
 - Lees de pH-waarde
-- Lees de ontvangen signaalsterkte
-- Lees de zoutwaarde
+- Lees het zoutgehalte
 - Lees totaal opgeloste vaste stoffen
+- Lees de ontvangen signaalsterkte
 - Triggers beschikbaar voor alle waarden, inclusief batterij en temperatuur
 - Toont softwareversie, serienummer en volume van uw zwembad / spa
 

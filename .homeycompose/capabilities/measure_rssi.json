@@ -1,9 +1,9 @@
 {
     "type": "number",
     "title": {
-        "en": "RSSI Value",
-        "fr": "Valeur RSSI",
-        "nl": "RSSI waarde"
+        "en": "RSSI",
+        "fr": "RSSI",
+        "nl": "RSSI"
     },
     "uiComponent": "sensor",
     "icon": "/assets/rssi.svg",

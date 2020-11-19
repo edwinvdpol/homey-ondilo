@@ -1,16 +1,16 @@
 {
     "title": {
-        "en": "The RSSI value changed",
-        "fr": "La valeur RSSI a changé",
-        "nl": "De RSSI waarde is veranderd"
+        "en": "The RSSI changed",
+        "fr": "Le RSSI a changé",
+        "nl": "De RSSI is veranderd"
     },
     "tokens": [
         {
             "name": "measure_rssi",
             "title": {
-                "en": "RSSI Value",
-                "fr": "Valeur RSSI",
-                "nl": "RSSI waarde"
+                "en": "RSSI",
+                "fr": "RSSI",
+                "nl": "RSSI"
             },
             "type": "number",
             "example": 50

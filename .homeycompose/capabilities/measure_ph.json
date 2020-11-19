@@ -1,9 +1,9 @@
 {
     "type": "number",
     "title": {
-        "en": "pH Value",
-        "fr": "Valeur pH",
-        "nl": "pH waarde"
+        "en": "pH",
+        "fr": "pH",
+        "nl": "pH"
     },
     "uiComponent": "sensor",
     "icon": "/assets/ph.svg",

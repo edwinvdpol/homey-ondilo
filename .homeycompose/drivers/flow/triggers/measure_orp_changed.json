@@ -1,16 +1,16 @@
 {
     "title": {
-        "en": "The ORP value changed",
-        "fr": "La valeur ORP a changé",
-        "nl": "De ORP waarde is veranderd"
+        "en": "The redox changed",
+        "fr": "La redox a changé",
+        "nl": "De redox is veranderd"
     },
     "tokens": [
         {
             "name": "measure_orp",
             "title": {
-                "en": "ORP Value",
-                "fr": "Valeur ORP",
-                "nl": "ORP waarde"
+                "en": "Redox",
+                "fr": "Redox",
+                "nl": "Redox"
             },
             "type": "number",
             "example": 400

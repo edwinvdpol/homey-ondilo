@@ -1,9 +1,9 @@
 {
     "type": "number",
     "title": {
-        "en": "ORP Value",
-        "fr": "Valeur ORP",
-        "nl": "ORP waarde"
+        "en": "Redox",
+        "fr": "Redox",
+        "nl": "Redox"
     },
     "uiComponent": "sensor",
     "icon": "/assets/orp.svg",
