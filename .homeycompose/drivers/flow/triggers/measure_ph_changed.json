@@ -5,7 +5,8 @@
         "es": "El valor de pH ha cambiado",
         "fr": "La valeur du pH a changé",
         "it": "Il valore del pH è cambiato",
-        "nl": "De pH waarde is veranderd"
+        "nl": "De pH waarde is veranderd",
+        "sv": "pH-värdet har ändrats"
     },
     "tokens": [
         {

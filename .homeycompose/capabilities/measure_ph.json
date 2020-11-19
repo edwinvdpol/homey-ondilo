@@ -6,7 +6,8 @@
         "es": "Valor de pH",
         "fr": "Valeur du pH",
         "it": "Valore del pH",
-        "nl": "pH waarde"
+        "nl": "pH waarde",
+        "sv": "pH-värde"
     },
     "uiComponent": "sensor",
     "icon": "/assets/ph.svg",

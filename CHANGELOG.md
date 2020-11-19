@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - German translation
 - Italian translation
 - Spanish translation
+- Swedish translation
 
 ### Changed
 - Changed several translations

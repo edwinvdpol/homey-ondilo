@@ -5,7 +5,8 @@
         "es": "El valor redox ha cambiado",
         "fr": "La valeur redox a changé",
         "it": "Il valore redox è cambiato",
-        "nl": "De redoxwaarde is veranderd"
+        "nl": "De redoxwaarde is veranderd",
+        "sv": "Redoxvärdet har ändrats"
     },
     "tokens": [
         {

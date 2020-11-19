@@ -6,7 +6,8 @@
         "es": "Valor redox",
         "fr": "Valeur redox",
         "it": "Valore redox",
-        "nl": "Redoxwaarde"
+        "nl": "Redoxwaarde",
+        "sv": "Redoxvärde"
     },
     "uiComponent": "sensor",
     "icon": "/assets/orp.svg",
@@ -20,7 +21,8 @@
 		"es": "Valor redox en milivoltios (mV)",
 		"fr": "Valeur redox en millivolts (mV)",
 		"it": "Valore redox in millivolt (mV)",
-		"nl": "Redoxwaarde in millivolt (mV)"
+		"nl": "Redoxwaarde in millivolt (mV)",
+		"sv": "Redoxvärde i millivolt (mV)"
 	},
     "chartType": "stepLine",
     "getable": true,

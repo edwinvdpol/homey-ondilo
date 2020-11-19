@@ -5,7 +5,8 @@
         "es": "La salinidad ha cambiado",
         "fr": "La salinité a changé",
         "it": "La salinità è cambiata",
-        "nl": "Het zoutgehalte is veranderd"
+        "nl": "Het zoutgehalte is veranderd",
+        "sv": "Salthalten har förändrats"
     },
     "tokens": [
         {
@@ -16,7 +17,8 @@
                 "es": "Salinidad",
                 "fr": "Salinité",
                 "it": "Salinità",
-                "nl": "Zoutgehalte"
+                "nl": "Zoutgehalte",
+                "sv": "Salthalt"
             },
             "type": "number",
             "example": 40

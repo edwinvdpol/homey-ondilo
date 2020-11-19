@@ -5,7 +5,8 @@
         "es": "El TDS ha cambiado",
         "fr": "La TDS a changé",
         "it": "Il TDS è cambiato",
-        "nl": "De TDS is veranderd"
+        "nl": "De TDS is veranderd",
+        "sv": "TDS har förändrats"
     },
     "tokens": [
         {

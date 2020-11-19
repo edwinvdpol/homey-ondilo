@@ -5,7 +5,8 @@
     "es": "Versión inicial",
     "fr": "Première version",
     "it": "Versione iniziale",
-    "nl": "Eerste release"
+    "nl": "Eerste release",
+    "sv": "Första utgåvan"
   },
   "1.0.1": {
     "en": "Fixed application name",
@@ -13,6 +14,7 @@
     "es": "Se cambió el nombre de la aplicación",
     "fr": "Nom de l'application modifié",
     "it": "Nome dell'applicazione modificato",
-    "nl": "Naam van applicatie aangepast"
+    "nl": "Naam van applicatie aangepast",
+    "sv": "Ansökan har ändrats"
   }
 }

@@ -13,7 +13,8 @@
     "es": "Simplifique el mantenimiento de su piscina",
     "fr": "Simplifiez l'entretien de votre piscine",
     "it": "Semplifica la manutenzione della tua piscina",
-    "nl": "Vereenvoudig uw zwembadonderhoud"
+    "nl": "Vereenvoudig uw zwembadonderhoud",
+    "sv": "Förenkla ditt poolunderhåll"
   },
   "category": [
     "appliances"
@@ -72,6 +73,15 @@
       "bad",
       "badplaats",
       "metingen"
+    ],
+    "sv": [
+      "Ondilo",
+      "ICO",
+      "hälsa",
+      "simning",
+      "slå samman",
+      "spa",
+      "åtgärder"
     ]
   },
   "images": {

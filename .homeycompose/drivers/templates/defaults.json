@@ -57,7 +57,8 @@
                 "es": "Propiedades",
                 "fr": "Propriétés",
                 "it": "Proprietà",
-                "nl": "Eigenschappen"
+                "nl": "Eigenschappen",
+                "sv": "Egenskaper"
             },
             "children": [
                 {
@@ -69,7 +70,8 @@
                         "es": "Volumen total",
                         "fr": "Volume total",
                         "it": "Volume totale",
-                        "nl": "Totaal volume"
+                        "nl": "Totaal volume",
+                        "sv": "Total volym"
                     },
                     "value": "-"
                 },
@@ -82,7 +84,8 @@
                         "es": "Número de serie",
                         "fr": "Numéro de série",
                         "it": "Numero di serie",
-                        "nl": "Serienummer"
+                        "nl": "Serienummer",
+                        "sv": "Serienummer"
                     },
                     "value": "-"
                 },
@@ -95,7 +98,8 @@
                         "es": "Versión del software",
                         "fr": "Une version de logiciel",
                         "it": "Versione software",
-                        "nl": "Software versie"
+                        "nl": "Software versie",
+                        "sv": "Mjukvaru-version"
                     },
                     "value": "-"
                 }

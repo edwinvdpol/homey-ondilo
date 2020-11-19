@@ -17,7 +17,8 @@
         "es": "Indicador de intensidad de la señal recibida en porcentaje (%)",
         "fr": "Indicateur de force du signal reçu en pourcentage (%)",
         "it": "Indicatore di potenza del segnale ricevuto in percentuale (%)",
-        "nl": "Indicator ontvangen signaalsterkte in procenten (%)"
+        "nl": "Indicator ontvangen signaalsterkte in procenten (%)",
+        "sv": "Mottagen signalstyrkaindikator i procent (%)"
     },
     "chartType": "spline",
     "getable": true,
