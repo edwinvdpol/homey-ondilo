@@ -8,9 +8,7 @@
         {
             "name": "measure_rssi",
             "title": {
-                "en": "RSSI",
-                "fr": "RSSI",
-                "nl": "RSSI"
+                "en": "RSSI"
             },
             "type": "number",
             "example": 50

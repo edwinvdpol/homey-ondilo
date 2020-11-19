@@ -1,18 +1,18 @@
 {
     "type": "number",
     "title": {
-        "en": "Redox",
-        "fr": "Redox",
-        "nl": "Redox"
+        "en": "Redox"
     },
     "uiComponent": "sensor",
     "icon": "/assets/orp.svg",
-    "units": "mV",
+    "units": {
+    	"en": "mV"
+	},
     "insights": true,
     "desc": {
-		"en": "Oxidation-reduction potential in millivolts (mV)",
-		"fr": "Potentiel d'oxydoréduction en millivolts (mV)",
-		"nl": "Oxidatie-reductiepotentieel in millivolt (mV)"
+		"en": "Redox in millivolts (mV)",
+		"fr": "Redox en millivolts (mV)",
+		"nl": "Redox in millivolt (mV)"
 	},
     "chartType": "stepLine",
     "getable": true,

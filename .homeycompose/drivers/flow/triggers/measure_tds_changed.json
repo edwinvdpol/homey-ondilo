@@ -8,9 +8,7 @@
         {
             "name": "measure_tds",
             "title": {
-                "en": "TDS",
-                "fr": "TDS",
-                "nl": "TDS"
+                "en": "TDS"
             },
             "type": "number",
             "example": 400

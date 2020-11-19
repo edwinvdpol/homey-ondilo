@@ -8,9 +8,7 @@
         {
             "name": "measure_ph",
             "title": {
-                "en": "pH",
-                "fr": "pH",
-                "nl": "pH"
+                "en": "pH"
             },
             "type": "number",
             "example": 7.2

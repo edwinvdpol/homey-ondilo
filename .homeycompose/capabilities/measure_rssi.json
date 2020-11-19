@@ -1,13 +1,13 @@
 {
     "type": "number",
     "title": {
-        "en": "RSSI",
-        "fr": "RSSI",
-        "nl": "RSSI"
+        "en": "RSSI"
     },
     "uiComponent": "sensor",
     "icon": "/assets/rssi.svg",
-    "units": "%",
+    "units": {
+        "en": "%"
+    },
     "insights": true,
     "min": 0,
     "max": 100,

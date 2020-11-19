@@ -6,9 +6,7 @@
   "sdk": 2,
   "brandColor": "#29A59B",
   "name": {
-    "en": "ICO",
-    "fr": "ICO",
-    "nl": "ICO"
+    "en": "ICO"
   },
   "description": {
     "en": "Simplify your pool maintenance",
@@ -92,9 +90,7 @@
           {
             "name": "measure_orp",
             "title": {
-              "en": "Redox",
-              "fr": "Redox",
-              "nl": "Redox"
+              "en": "Redox"
             },
             "type": "number",
             "example": 400
@@ -119,9 +115,7 @@
           {
             "name": "measure_ph",
             "title": {
-              "en": "pH",
-              "fr": "pH",
-              "nl": "pH"
+              "en": "pH"
             },
             "type": "number",
             "example": 7.2
@@ -146,9 +140,7 @@
           {
             "name": "measure_rssi",
             "title": {
-              "en": "RSSI",
-              "fr": "RSSI",
-              "nl": "RSSI"
+              "en": "RSSI"
             },
             "type": "number",
             "example": 50
@@ -200,9 +192,7 @@
           {
             "name": "measure_tds",
             "title": {
-              "en": "TDS",
-              "fr": "TDS",
-              "nl": "TDS"
+              "en": "TDS"
             },
             "type": "number",
             "example": 400
@@ -227,9 +217,7 @@
           {
             "name": "measure_orp",
             "title": {
-              "en": "Redox",
-              "fr": "Redox",
-              "nl": "Redox"
+              "en": "Redox"
             },
             "type": "number",
             "example": 400
@@ -254,9 +242,7 @@
           {
             "name": "measure_ph",
             "title": {
-              "en": "pH",
-              "fr": "pH",
-              "nl": "pH"
+              "en": "pH"
             },
             "type": "number",
             "example": 7.2
@@ -281,9 +267,7 @@
           {
             "name": "measure_rssi",
             "title": {
-              "en": "RSSI",
-              "fr": "RSSI",
-              "nl": "RSSI"
+              "en": "RSSI"
             },
             "type": "number",
             "example": 50
@@ -335,9 +319,7 @@
           {
             "name": "measure_tds",
             "title": {
-              "en": "TDS",
-              "fr": "TDS",
-              "nl": "TDS"
+              "en": "TDS"
             },
             "type": "number",
             "example": 400
@@ -535,18 +517,18 @@
     "measure_orp": {
       "type": "number",
       "title": {
-        "en": "Redox",
-        "fr": "Redox",
-        "nl": "Redox"
+        "en": "Redox"
       },
       "uiComponent": "sensor",
       "icon": "/assets/orp.svg",
-      "units": "mV",
+      "units": {
+        "en": "mV"
+      },
       "insights": true,
       "desc": {
-        "en": "Oxidation-reduction potential in millivolts (mV)",
-        "fr": "Potentiel d'oxydoréduction en millivolts (mV)",
-        "nl": "Oxidatie-reductiepotentieel in millivolt (mV)"
+        "en": "Redox in millivolts (mV)",
+        "fr": "Redox en millivolts (mV)",
+        "nl": "Redox in millivolt (mV)"
       },
       "chartType": "stepLine",
       "getable": true,
@@ -555,28 +537,26 @@
     "measure_ph": {
       "type": "number",
       "title": {
-        "en": "pH",
-        "fr": "pH",
-        "nl": "pH"
+        "en": "pH"
       },
       "uiComponent": "sensor",
       "icon": "/assets/ph.svg",
       "decimals": 2,
       "insights": true,
-      "chartType": "stepLine",
+      "chartType": "spline",
       "getable": true,
       "setable": false
     },
     "measure_rssi": {
       "type": "number",
       "title": {
-        "en": "RSSI",
-        "fr": "RSSI",
-        "nl": "RSSI"
+        "en": "RSSI"
       },
       "uiComponent": "sensor",
       "icon": "/assets/rssi.svg",
-      "units": "%",
+      "units": {
+        "en": "%"
+      },
       "insights": true,
       "min": 0,
       "max": 100,
@@ -598,35 +578,37 @@
       },
       "uiComponent": "sensor",
       "icon": "/assets/salt.svg",
-      "units": "mg/L",
+      "units": {
+        "en": "mg/L"
+      },
       "decimals": 2,
       "insights": true,
       "desc": {
-        "en": "Milligrams of salt per liter (mg/L)",
-        "fr": "Milligrammes de sel par litre (mg/L)",
-        "nl": "Milligram zout per liter (mg/L)"
+        "en": "Salinity in milligrams per liter (mg/L)",
+        "fr": "Salinité en milligrammes par litre (mg/L)",
+        "nl": "Zoutgehalte in milligram per liter (mg/L)"
       },
-      "chartType": "stepLine",
+      "chartType": "spline",
       "getable": true,
       "setable": false
     },
     "measure_tds": {
       "type": "number",
       "title": {
-        "en": "TDS",
-        "fr": "TDS",
-        "nl": "TDS"
+        "en": "TDS"
       },
       "uiComponent": "sensor",
       "icon": "/assets/tds.svg",
-      "units": "ppm",
+      "units": {
+        "en": "ppm"
+      },
       "insights": true,
       "desc": {
-        "en": "Total dissolved solids in parts per million (ppm)",
-        "fr": "Total des solides dissous en parties par million (ppm)",
-        "nl": "Totaal opgeloste vaste stoffen in deeltjes per miljoen (ppm)"
+        "en": "TDS in parts-per-million (ppm)",
+        "fr": "TDS en parts par million (ppm)",
+        "nl": "TDS deeltjes per miljoen (ppm)"
       },
-      "chartType": "stepLine",
+      "chartType": "spline",
       "getable": true,
       "setable": false
     }

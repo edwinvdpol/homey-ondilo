@@ -5,9 +5,7 @@
   "sdk": 2,
   "brandColor": "#29A59B",
   "name": {
-    "en": "ICO",
-    "fr": "ICO",
-    "nl": "ICO"
+    "en": "ICO"
   },
   "description": {
     "en": "Simplify your pool maintenance",

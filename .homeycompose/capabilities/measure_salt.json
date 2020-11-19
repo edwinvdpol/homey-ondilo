@@ -7,15 +7,17 @@
     },
     "uiComponent": "sensor",
     "icon": "/assets/salt.svg",
-    "units": "mg/L",
+    "units": {
+        "en": "mg/L"
+    },
     "decimals": 2,
     "insights": true,
     "desc": {
-        "en": "Milligrams of salt per liter (mg/L)",
-        "fr": "Milligrammes de sel par litre (mg/L)",
-        "nl": "Milligram zout per liter (mg/L)"
+        "en": "Salinity in milligrams per liter (mg/L)",
+        "fr": "Salinité en milligrammes par litre (mg/L)",
+        "nl": "Zoutgehalte in milligram per liter (mg/L)"
     },
-    "chartType": "stepLine",
+    "chartType": "spline",
     "getable": true,
     "setable": false
 }

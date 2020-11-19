@@ -1,20 +1,20 @@
 {
     "type": "number",
     "title": {
-        "en": "TDS",
-        "fr": "TDS",
-        "nl": "TDS"
+        "en": "TDS"
     },
     "uiComponent": "sensor",
     "icon": "/assets/tds.svg",
-    "units": "ppm",
+    "units": {
+        "en": "ppm"
+    },
     "insights": true,
     "desc": {
-        "en": "Total dissolved solids in parts per million (ppm)",
-        "fr": "Total des solides dissous en parties par million (ppm)",
-        "nl": "Totaal opgeloste vaste stoffen in deeltjes per miljoen (ppm)"
+        "en": "TDS in parts-per-million (ppm)",
+        "fr": "TDS en parts par million (ppm)",
+        "nl": "TDS deeltjes per miljoen (ppm)"
     },
-    "chartType": "stepLine",
+    "chartType": "spline",
     "getable": true,
     "setable": false
 }

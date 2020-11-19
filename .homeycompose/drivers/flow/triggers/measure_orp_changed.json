@@ -8,9 +8,7 @@
         {
             "name": "measure_orp",
             "title": {
-                "en": "Redox",
-                "fr": "Redox",
-                "nl": "Redox"
+                "en": "Redox"
             },
             "type": "number",
             "example": 400
