@@ -1,7 +1,10 @@
 {
     "type": "number",
     "title": {
-        "en": "Redox"
+        "en": "Redox value",
+        "de": "Redoxwert",
+        "fr": "Valeur redox",
+        "nl": "Redoxwaarde"
     },
     "uiComponent": "sensor",
     "icon": "/assets/orp.svg",
@@ -10,10 +13,10 @@
 	},
     "insights": true,
     "desc": {
-		"en": "Redox in millivolts (mV)",
-		"de": "Redox in Millivolt (mV)",
-		"fr": "Redox en millivolts (mV)",
-		"nl": "Redox in millivolt (mV)"
+		"en": "Redox value in millivolts (mV)",
+		"de": "Redoxwert in Millivolt (mV)",
+		"fr": "Valeur redox en millivolts (mV)",
+		"nl": "Redoxwaarde in millivolt (mV)"
 	},
     "chartType": "stepLine",
     "getable": true,

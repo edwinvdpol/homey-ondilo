@@ -92,10 +92,10 @@
       {
         "id": "measure_orp_changed",
         "title": {
-          "en": "The redox changed",
-          "de": "Das Redox hat sich geändert",
-          "fr": "La redox a changé",
-          "nl": "De redox is veranderd"
+          "en": "The redox value changed",
+          "de": "Der Redoxwert hat sich geändert",
+          "fr": "La valeur redox a changé",
+          "nl": "De redoxwaarde is veranderd"
         },
         "tokens": [
           {
@@ -118,10 +118,10 @@
       {
         "id": "measure_ph_changed",
         "title": {
-          "en": "The pH changed",
-          "de": "Der pH hat sich geändert",
-          "fr": "La pH a changé",
-          "nl": "De pH is veranderd"
+          "en": "The pH value changed",
+          "de": "Der pH-Wert hat sich geändert",
+          "fr": "La valeur du pH a changé",
+          "nl": "De pH waarde is veranderd"
         },
         "tokens": [
           {
@@ -225,10 +225,10 @@
       {
         "id": "measure_orp_changed",
         "title": {
-          "en": "The redox changed",
-          "de": "Das Redox hat sich geändert",
-          "fr": "La redox a changé",
-          "nl": "De redox is veranderd"
+          "en": "The redox value changed",
+          "de": "Der Redoxwert hat sich geändert",
+          "fr": "La valeur redox a changé",
+          "nl": "De redoxwaarde is veranderd"
         },
         "tokens": [
           {
@@ -251,10 +251,10 @@
       {
         "id": "measure_ph_changed",
         "title": {
-          "en": "The pH changed",
-          "de": "Der pH hat sich geändert",
-          "fr": "La pH a changé",
-          "nl": "De pH is veranderd"
+          "en": "The pH value changed",
+          "de": "Der pH-Wert hat sich geändert",
+          "fr": "La valeur du pH a changé",
+          "nl": "De pH waarde is veranderd"
         },
         "tokens": [
           {
@@ -547,7 +547,10 @@
     "measure_orp": {
       "type": "number",
       "title": {
-        "en": "Redox"
+        "en": "Redox value",
+        "de": "Redoxwert",
+        "fr": "Valeur redox",
+        "nl": "Redoxwaarde"
       },
       "uiComponent": "sensor",
       "icon": "/assets/orp.svg",
@@ -556,10 +559,10 @@
       },
       "insights": true,
       "desc": {
-        "en": "Redox in millivolts (mV)",
-        "de": "Redox in Millivolt (mV)",
-        "fr": "Redox en millivolts (mV)",
-        "nl": "Redox in millivolt (mV)"
+        "en": "Redox value in millivolts (mV)",
+        "de": "Redoxwert in Millivolt (mV)",
+        "fr": "Valeur redox en millivolts (mV)",
+        "nl": "Redoxwaarde in millivolt (mV)"
       },
       "chartType": "stepLine",
       "getable": true,
@@ -568,7 +571,10 @@
     "measure_ph": {
       "type": "number",
       "title": {
-        "en": "pH"
+        "en": "pH value",
+        "de": "pH-Wert",
+        "fr": "Valeur du pH",
+        "nl": "pH waarde"
       },
       "uiComponent": "sensor",
       "icon": "/assets/ph.svg",

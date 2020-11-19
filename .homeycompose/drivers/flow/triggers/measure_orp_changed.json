@@ -1,9 +1,9 @@
 {
     "title": {
-        "en": "The redox changed",
-        "de": "Das Redox hat sich geändert",
-        "fr": "La redox a changé",
-        "nl": "De redox is veranderd"
+        "en": "The redox value changed",
+        "de": "Der Redoxwert hat sich geändert",
+        "fr": "La valeur redox a changé",
+        "nl": "De redoxwaarde is veranderd"
     },
     "tokens": [
         {

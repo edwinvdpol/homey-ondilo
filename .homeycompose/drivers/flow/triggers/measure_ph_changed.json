@@ -1,9 +1,9 @@
 {
     "title": {
-        "en": "The pH changed",
-        "de": "Der pH hat sich geändert",
-        "fr": "La pH a changé",
-        "nl": "De pH is veranderd"
+        "en": "The pH value changed",
+        "de": "Der pH-Wert hat sich geändert",
+        "fr": "La valeur du pH a changé",
+        "nl": "De pH waarde is veranderd"
     },
     "tokens": [
         {

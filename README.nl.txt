@@ -3,8 +3,8 @@ ICO houdt toezicht op uw zwembad / spa.
 Het analyseert uw waterkwaliteit, helpt u bij uw onderhoud en anticipeert op veranderingen in het weer.
 
 Functies zijn onder meer:
-- Lees de redox waarde
-- Lees de pH-waarde
+- Lees de redoxwaarde
+- Lees de pH waarde
 - Lees het zoutgehalte
 - Lees totaal opgeloste vaste stoffen
 - Lees de ontvangen signaalsterkte
