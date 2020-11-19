@@ -20,5 +20,16 @@
         "nl": "Naam van applicatie aangepast",
         "no": "Søknadens navn er endret",
         "sv": "Ansökan har ändrats"
+    },
+    "1.0.2": {
+        "en": "Added remaining translations",
+        "da": "Tilføjede resterende oversættelser",
+        "de": "Verbleibende Übersetzungen hinzugefügt",
+        "es": "Añadidas traducciones restantes",
+        "fr": "Ajout des traductions restantes",
+        "it": "Aggiunte traduzioni rimanenti",
+        "nl": "Overgebleven vertalingen toegevoegd",
+        "no": "Lagt til gjenværende oversettelser",
+        "sv": "Lade till återstående översättningar"
     }
 }
