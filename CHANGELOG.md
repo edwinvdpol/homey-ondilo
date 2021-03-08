@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2021-03-08
+### Changed
+- Updated to the latest Homey Apps SDK version.
+
 ## [1.0.2] - 2020-11-19
 ### Added
 - German translation
@@ -25,7 +29,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2020-11-18
 - Initial release
 
-[Unreleased]: https://github.com/edwinvdpol/com.ondilo.ico/compare/v1.0.2...HEAD
+[Unreleased]: https://github.com/edwinvdpol/com.ondilo.ico/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/edwinvdpol/com.ondilo.ico/compare/v1.0.2...v1.1.0
 [1.0.2]: https://github.com/edwinvdpol/com.ondilo.ico/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/edwinvdpol/com.ondilo.ico/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/edwinvdpol/com.ondilo.ico/releases/tag/v1.0.0

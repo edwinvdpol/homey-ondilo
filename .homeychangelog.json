@@ -31,5 +31,16 @@
         "nl": "Overgebleven vertalingen toegevoegd",
         "no": "Lagt til gjenværende oversettelser",
         "sv": "Lade till återstående översättningar"
+    },
+    "1.1.0": {
+        "en": "Updated to the latest Homey Apps SDK version.",
+        "da": "Opdateret til den nyeste Homey Apps SDK-version.",
+        "de": "Auf die neueste Homey Apps SDK-Version aktualisiert.",
+        "es": "Actualizado a la última versión del SDK de Homey Apps.",
+        "fr": "Mise à jour vers la dernière version du SDK Homey Apps.",
+        "it": "Aggiornato all'ultima versione di Homey Apps SDK.",
+        "nl": "Bijgewerkt naar de laatste Homey Apps SDK-versie.",
+        "no": "Oppdatert til den nyeste Homey Apps SDK-versjonen.",
+        "sv": "Uppdaterad till den senaste Homey Apps SDK-versionen."
     }
 }

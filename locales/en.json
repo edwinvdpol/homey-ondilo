@@ -2,7 +2,6 @@
     "errors": {
         "401": "You are not authorized to use the API!",
         "404": "This device is not found!",
-        "50x": "The API is not available! Try again later.",
-        "unknown": "An unknown error has occurred!"
+        "50x": "The API is not available! Try again later."
     }
 }

@@ -1,8 +1,8 @@
 {
     "id": "com.ondilo.ico",
-    "version": "1.0.2",
-    "compatibility": ">=4.2.0",
-    "sdk": 2,
+    "version": "1.1.0",
+    "compatibility": ">=5.0.0",
+    "sdk": 3,
     "brandColor": "#29A59B",
     "name": {
         "en": "ICO"
@@ -62,6 +62,5 @@
         }
     },
     "homeyCommunityTopicId": 37536,
-    "source": "https://github.com/edwinvdpol/com.ondilo.ico",
     "support": "https://community.athom.com/t/37536"
 }

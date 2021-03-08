@@ -2,7 +2,6 @@
     "errors": {
         "401": "U bent niet bevoegd om de API te gebruiken!",
         "404": "Dit apparaat is niet gevonden!",
-        "50x": "De API is niet beschikbaar! Probeer het later nog eens.",
-        "unknown": "Er is een onbekende fout opgetreden!"
+        "50x": "De API is niet beschikbaar! Probeer het later nog eens."
     }
 }

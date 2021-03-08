@@ -2,7 +2,6 @@
     "errors": {
         "401": "Du har inte behörighet att använda API: t!",
         "404": "Enheten hittades inte!",
-        "50x": "API: et är inte tillgängligt! Försök igen senare.",
-        "unknown": "Ett okänt fel har uppstått!"
+        "50x": "API: et är inte tillgängligt! Försök igen senare."
     }
 }

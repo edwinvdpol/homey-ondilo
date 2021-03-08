@@ -2,7 +2,6 @@
     "errors": {
         "401": "Vous n'êtes pas autorisé à utiliser l'API!",
         "404": "Cet appareil est introuvable!",
-        "50x": "L'API n'est pas disponible! Réessayez plus tard.",
-        "unknown": "Une erreur inconnue s'est produite!"
+        "50x": "L'API n'est pas disponible! Réessayez plus tard."
     }
 }
