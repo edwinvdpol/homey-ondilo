@@ -11,10 +11,6 @@
         {
             "type": "individual",
             "url": "https://www.paypal.me/edwinvdpol"
-        },
-        {
-            "type": "patreon",
-            "url": "https://www.patreon.com/evdpol"
         }
     ],
     "main": "app.js",
@@ -23,9 +19,10 @@
         "url": "https://github.com/edwinvdpol/com.ondilo.ico.git"
     },
     "dependencies": {
-        "homey-oauth2app": "^3.1.1"
+        "homey-log": "^2.0.1",
+        "homey-oauth2app": "^3.2.5"
     },
     "devDependencies": {
-        "homey": "^2.10.0"
+        "@types/homey": "npm:homey-apps-sdk-v3-types@^0.2.2"
     }
 }
