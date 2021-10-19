@@ -42,5 +42,16 @@
         "nl": "Bijgewerkt naar de laatste Homey Apps SDK-versie.",
         "no": "Oppdatert til den nyeste Homey Apps SDK-versjonen.",
         "sv": "Uppdaterad till den senaste Homey Apps SDK-versionen."
+    },
+    "1.1.1": {
+        "en": "Update for Homey App Store.",
+        "da": "Opdatering til Homey App Store.",
+        "de": "Update für Homey App Store.",
+        "es": "Actualización para Homey App Store.",
+        "fr": "Mise à jour pour Homey App Store.",
+        "it": "Aggiornamento per Homey App Store.",
+        "nl": "Update voor Homey App Store.",
+        "no": "Oppdatering for Homey App Store.",
+        "sv": "Uppdatering för Homey App Store."
     }
 }
