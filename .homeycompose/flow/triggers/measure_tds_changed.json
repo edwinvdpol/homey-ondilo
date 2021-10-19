@@ -10,6 +10,13 @@
         "no": "TDS har endret seg",
         "sv": "TDS har förändrats"
     },
+    "args": [
+        {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa"
+        }
+    ],
     "tokens": [
         {
             "name": "measure_tds",

@@ -1,7 +1,7 @@
 {
     "images": {
-        "large": "{{driverPath}}/assets/images/large.png",
-        "small": "{{driverPath}}/assets/images/small.png"
+        "large": "{{driverAssetsPath}}/images/large.png",
+        "small": "{{driverAssetsPath}}/images/small.png"
     },
     "capabilities": [
         "measure_battery",
@@ -11,6 +11,12 @@
         "measure_salt",
         "measure_tds",
         "measure_temperature"
+    ],
+    "connectivity": [
+        "cloud"
+    ],
+    "platforms": [
+        "local"
     ],
     "energy": {
         "batteries": ["INTERNAL"]
@@ -39,15 +45,6 @@
             "template": "login_oauth2"
         }
     ],
-    "$flow": {
-        "triggers": [
-            { "$extends": "measure_orp_changed" },
-            { "$extends": "measure_ph_changed" },
-            { "$extends": "measure_rssi_changed" },
-            { "$extends": "measure_salt_changed" },
-            { "$extends": "measure_tds_changed" }
-        ]
-    },
     "settings": [
         {
             "type": "group",

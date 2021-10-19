@@ -10,6 +10,13 @@
         "no": "pH-verdien har endret seg",
         "sv": "pH-värdet har ändrats"
     },
+    "args": [
+        {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa"
+        }
+    ],
     "tokens": [
         {
             "name": "measure_ph",

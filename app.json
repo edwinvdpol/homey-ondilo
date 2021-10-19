@@ -3,6 +3,9 @@
   "id": "com.ondilo.ico",
   "version": "1.1.0",
   "compatibility": ">=5.0.0",
+  "platforms": [
+    "local"
+  ],
   "sdk": 3,
   "brandColor": "#29A59B",
   "name": {
@@ -139,7 +142,6 @@
   "flow": {
     "triggers": [
       {
-        "id": "measure_orp_changed",
         "title": {
           "en": "The redox value changed",
           "da": "Redoxværdien er ændret",
@@ -151,6 +153,13 @@
           "no": "Redoksverdien er endret",
           "sv": "Redoxvärdet har ändrats"
         },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa"
+          }
+        ],
         "tokens": [
           {
             "name": "measure_orp",
@@ -161,16 +170,9 @@
             "example": 400
           }
         ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=pool"
-          }
-        ]
+        "id": "measure_orp_changed"
       },
       {
-        "id": "measure_ph_changed",
         "title": {
           "en": "The pH value changed",
           "da": "PH-værdien er ændret",
@@ -182,6 +184,13 @@
           "no": "pH-verdien har endret seg",
           "sv": "pH-värdet har ändrats"
         },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa"
+          }
+        ],
         "tokens": [
           {
             "name": "measure_ph",
@@ -192,16 +201,9 @@
             "example": 7.2
           }
         ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=pool"
-          }
-        ]
+        "id": "measure_ph_changed"
       },
       {
-        "id": "measure_rssi_changed",
         "title": {
           "en": "The RSSI changed",
           "da": "RSSI er ændret",
@@ -213,6 +215,13 @@
           "no": "RSSI har endret seg",
           "sv": "RSSI har ändrats"
         },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa"
+          }
+        ],
         "tokens": [
           {
             "name": "measure_rssi",
@@ -223,16 +232,9 @@
             "example": 50
           }
         ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=pool"
-          }
-        ]
+        "id": "measure_rssi_changed"
       },
       {
-        "id": "measure_salt_changed",
         "title": {
           "en": "The salinity changed",
           "da": "Saltindholdet har ændret sig",
@@ -244,6 +246,13 @@
           "no": "Saltinnholdet har endret seg",
           "sv": "Salthalten har förändrats"
         },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa"
+          }
+        ],
         "tokens": [
           {
             "name": "measure_salt",
@@ -262,16 +271,9 @@
             "example": 40
           }
         ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=pool"
-          }
-        ]
+        "id": "measure_salt_changed"
       },
       {
-        "id": "measure_tds_changed",
         "title": {
           "en": "The TDS changed",
           "da": "TDS er ændret",
@@ -283,6 +285,13 @@
           "no": "TDS har endret seg",
           "sv": "TDS har förändrats"
         },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa"
+          }
+        ],
         "tokens": [
           {
             "name": "measure_tds",
@@ -293,176 +302,7 @@
             "example": 400
           }
         ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=pool"
-          }
-        ]
-      },
-      {
-        "id": "measure_orp_changed",
-        "title": {
-          "en": "The redox value changed",
-          "da": "Redoxværdien er ændret",
-          "de": "Der Redoxwert hat sich geändert",
-          "es": "El valor redox ha cambiado",
-          "fr": "La valeur redox a changé",
-          "it": "Il valore redox è cambiato",
-          "nl": "De redoxwaarde is veranderd",
-          "no": "Redoksverdien er endret",
-          "sv": "Redoxvärdet har ändrats"
-        },
-        "tokens": [
-          {
-            "name": "measure_orp",
-            "title": {
-              "en": "Redox"
-            },
-            "type": "number",
-            "example": 400
-          }
-        ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=spa"
-          }
-        ]
-      },
-      {
-        "id": "measure_ph_changed",
-        "title": {
-          "en": "The pH value changed",
-          "da": "PH-værdien er ændret",
-          "de": "Der pH-Wert hat sich geändert",
-          "es": "El valor de pH ha cambiado",
-          "fr": "La valeur du pH a changé",
-          "it": "Il valore del pH è cambiato",
-          "nl": "De pH waarde is veranderd",
-          "no": "pH-verdien har endret seg",
-          "sv": "pH-värdet har ändrats"
-        },
-        "tokens": [
-          {
-            "name": "measure_ph",
-            "title": {
-              "en": "pH"
-            },
-            "type": "number",
-            "example": 7.2
-          }
-        ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=spa"
-          }
-        ]
-      },
-      {
-        "id": "measure_rssi_changed",
-        "title": {
-          "en": "The RSSI changed",
-          "da": "RSSI er ændret",
-          "de": "Der RSSI hat sich geändert",
-          "es": "El RSSI ha cambiado",
-          "fr": "Le RSSI a changé",
-          "it": "L'RSSI è cambiato",
-          "nl": "De RSSI is veranderd",
-          "no": "RSSI har endret seg",
-          "sv": "RSSI har ändrats"
-        },
-        "tokens": [
-          {
-            "name": "measure_rssi",
-            "title": {
-              "en": "RSSI"
-            },
-            "type": "number",
-            "example": 50
-          }
-        ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=spa"
-          }
-        ]
-      },
-      {
-        "id": "measure_salt_changed",
-        "title": {
-          "en": "The salinity changed",
-          "da": "Saltindholdet har ændret sig",
-          "de": "Der Salzgehalt hat sich geändert",
-          "es": "La salinidad ha cambiado",
-          "fr": "La salinité a changé",
-          "it": "La salinità è cambiata",
-          "nl": "Het zoutgehalte is veranderd",
-          "no": "Saltinnholdet har endret seg",
-          "sv": "Salthalten har förändrats"
-        },
-        "tokens": [
-          {
-            "name": "measure_salt",
-            "title": {
-              "en": "Salinity",
-              "da": "Saltindhold",
-              "de": "Salzgehalt",
-              "es": "Salinidad",
-              "fr": "Salinité",
-              "it": "Salinità",
-              "nl": "Zoutgehalte",
-              "no": "Saltinnhold",
-              "sv": "Salthalt"
-            },
-            "type": "number",
-            "example": 40
-          }
-        ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=spa"
-          }
-        ]
-      },
-      {
-        "id": "measure_tds_changed",
-        "title": {
-          "en": "The TDS changed",
-          "da": "TDS er ændret",
-          "de": "Das TDS hat sich geändert",
-          "es": "El TDS ha cambiado",
-          "fr": "La TDS a changé",
-          "it": "Il TDS è cambiato",
-          "nl": "De TDS is veranderd",
-          "no": "TDS har endret seg",
-          "sv": "TDS har förändrats"
-        },
-        "tokens": [
-          {
-            "name": "measure_tds",
-            "title": {
-              "en": "TDS"
-            },
-            "type": "number",
-            "example": 400
-          }
-        ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=spa"
-          }
-        ]
+        "id": "measure_tds_changed"
       }
     ]
   },
@@ -480,6 +320,12 @@
         "measure_salt",
         "measure_tds",
         "measure_temperature"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "platforms": [
+        "local"
       ],
       "energy": {
         "batteries": [
@@ -592,6 +438,12 @@
         "measure_salt",
         "measure_tds",
         "measure_temperature"
+      ],
+      "connectivity": [
+        "cloud"
+      ],
+      "platforms": [
+        "local"
       ],
       "energy": {
         "batteries": [

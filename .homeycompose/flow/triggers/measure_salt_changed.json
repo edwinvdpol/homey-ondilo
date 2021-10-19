@@ -10,6 +10,13 @@
         "no": "Saltinnholdet har endret seg",
         "sv": "Salthalten har förändrats"
     },
+    "args": [
+        {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa"
+        }
+    ],
     "tokens": [
         {
             "name": "measure_salt",

@@ -1,8 +1,10 @@
 'use strict';
 
-const Homey = require('homey');
+const { Log } = require('homey-log');
 const ICOAuth2Client = require('/lib/ICOAuth2Client');
 const { OAuth2App } = require('homey-oauth2app');
+
+const refreshDeviceInterval = 15 * 60 * 1000; // 15 minute
 
 module.exports = class App extends OAuth2App {
 
@@ -18,10 +20,11 @@ module.exports = class App extends OAuth2App {
   async onOAuth2Init() {
     this.log('App has been initialized');
 
-    await super.onOAuth2Init();
+    // Sentry logging
+    this.homeyLog = new Log({ homey: this.homey });
 
     this.log('Starting update timer interval');
-    this.updateInterval = this.homey.setInterval(this._refreshDevices.bind(this), 15 * 60 * 1000);
+    this.updateInterval = this.homey.setInterval(this._refreshDevices.bind(this), refreshDeviceInterval);
 
     this.homey.on('cpuwarn', () => {
       this.log('-- CPU warning! --');

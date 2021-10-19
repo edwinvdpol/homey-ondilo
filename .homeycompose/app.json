@@ -2,6 +2,9 @@
     "id": "com.ondilo.ico",
     "version": "1.1.0",
     "compatibility": ">=5.0.0",
+    "platforms": [
+        "local"
+    ],
     "sdk": 3,
     "brandColor": "#29A59B",
     "name": {
