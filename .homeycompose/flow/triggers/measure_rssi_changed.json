@@ -1,30 +1,30 @@
 {
-    "title": {
-        "en": "The RSSI changed",
-        "da": "RSSI er ændret",
-        "de": "Der RSSI hat sich geändert",
-        "es": "El RSSI ha cambiado",
-        "fr": "Le RSSI a changé",
-        "it": "L'RSSI è cambiato",
-        "nl": "De RSSI is veranderd",
-        "no": "RSSI har endret seg",
-        "sv": "RSSI har ändrats"
-    },
-    "args": [
-        {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=pool|spa"
-        }
-    ],
-    "tokens": [
-        {
-            "name": "measure_rssi",
-            "title": {
-                "en": "RSSI"
-            },
-            "type": "number",
-            "example": 50
-        }
-    ]
+  "title": {
+    "en": "The RSSI changed",
+    "da": "RSSI er ændret",
+    "de": "Der RSSI hat sich geändert",
+    "es": "El RSSI ha cambiado",
+    "fr": "Le RSSI a changé",
+    "it": "L'RSSI è cambiato",
+    "nl": "De RSSI is veranderd",
+    "no": "RSSI har endret seg",
+    "sv": "RSSI har ändrats"
+  },
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=pool|spa"
+    }
+  ],
+  "tokens": [
+    {
+      "name": "measure_rssi",
+      "title": {
+        "en": "RSSI"
+      },
+      "type": "number",
+      "example": 50
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
     "errors": {
-        "401": "Du har inte behörighet att använda API: t!",
-        "404": "Enheten hittades inte!",
-        "50x": "API: et är inte tillgängligt! Försök igen senare."
+        "401": "Du är inte behörig att använda API",
+        "404": "Enheten hittades inte",
+        "50x": "Ondilo API är inte tillgängligt"
     }
 }

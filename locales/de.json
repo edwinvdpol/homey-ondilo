@@ -1,7 +1,7 @@
 {
     "errors": {
-        "401": "Sie sind nicht berechtigt, die API zu verwenden!",
-        "404": "Dieses Gerät wurde nicht gefunden!",
-        "50x": "Die API ist nicht verfügbar! Versuchen Sie es später erneut."
+        "401": "Sie sind nicht berechtigt, die API zu verwenden",
+        "404": "Gerät wird nicht gefunden",
+        "50x": "Ondilo-API ist nicht verfügbar"
     }
 }

@@ -1,7 +1,7 @@
 {
     "errors": {
-        "401": "Vous n'êtes pas autorisé à utiliser l'API!",
-        "404": "Cet appareil est introuvable!",
-        "50x": "L'API n'est pas disponible! Réessayez plus tard."
+        "401": "Vous n'êtes pas autorisé à utiliser l'API",
+        "404": "L'appareil est introuvable",
+        "50x": "L'API Ondilo n'est pas disponible"
     }
 }

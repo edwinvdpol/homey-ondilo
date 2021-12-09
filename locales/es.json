@@ -1,7 +1,7 @@
 {
     "errors": {
-        "401": "¡No está autorizado a utilizar la API!",
-        "404": "¡Este dispositivo no se encuentra!",
-        "50x": "¡La API no está disponible! Inténtelo de nuevo más tarde."
+        "401": "No tienes autorización para utilizar la API",
+        "404": "No se encuentra el dispositivo",
+        "50x": "La API de Ondilo no está disponible"
     }
 }

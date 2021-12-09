@@ -1,5 +1,8 @@
 'use strict';
 
-const Driver = require('/lib/ICODriver');
+const Driver = require('../../lib/Driver');
 
-module.exports = class SpaDriver extends Driver { }
+class SpaDriver extends Driver {
+}
+
+module.exports = SpaDriver;

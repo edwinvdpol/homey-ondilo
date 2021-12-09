@@ -1,5 +1,8 @@
 'use strict';
 
-const Driver = require('/lib/ICODriver');
+const Driver = require('../../lib/Driver');
 
-module.exports = class PoolDriver extends Driver { }
+class PoolDriver extends Driver {
+}
+
+module.exports = PoolDriver;

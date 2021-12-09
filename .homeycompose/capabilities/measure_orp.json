@@ -1,34 +1,34 @@
 {
-    "type": "number",
-    "title": {
-        "en": "Redox value",
-        "da": "Redox-værdi",
-        "de": "Redoxwert",
-        "es": "Valor redox",
-        "fr": "Valeur redox",
-        "it": "Valore redox",
-        "nl": "Redoxwaarde",
-        "no": "Redox-verdi",
-        "sv": "Redoxvärde"
-    },
-    "uiComponent": "sensor",
-    "icon": "/assets/orp.svg",
-    "units": {
-    	"en": "mV"
-	},
-    "insights": true,
-    "desc": {
-		"en": "Redox value in millivolts (mV)",
-		"da": "Redoxværdi i millivolt (mV)",
-		"de": "Redoxwert in Millivolt (mV)",
-		"es": "Valor redox en milivoltios (mV)",
-		"fr": "Valeur redox en millivolts (mV)",
-		"it": "Valore redox in millivolt (mV)",
-		"nl": "Redoxwaarde in millivolt (mV)",
-		"no": "Redoksverdi i millivolt (mV)",
-		"sv": "Redoxvärde i millivolt (mV)"
-	},
-    "chartType": "stepLine",
-    "getable": true,
-    "setable": false
+  "type": "number",
+  "title": {
+    "en": "Redox value",
+    "da": "Redox-værdi",
+    "de": "Redoxwert",
+    "es": "Valor redox",
+    "fr": "Valeur redox",
+    "it": "Valore redox",
+    "nl": "Redoxwaarde",
+    "no": "Redox-verdi",
+    "sv": "Redoxvärde"
+  },
+  "uiComponent": "sensor",
+  "icon": "/assets/orp.svg",
+  "units": {
+    "en": "mV"
+  },
+  "insights": true,
+  "desc": {
+    "en": "Redox value in millivolts (mV)",
+    "da": "Redoxværdi i millivolt (mV)",
+    "de": "Redoxwert in Millivolt (mV)",
+    "es": "Valor redox en milivoltios (mV)",
+    "fr": "Valeur redox en millivolts (mV)",
+    "it": "Valore redox in millivolt (mV)",
+    "nl": "Redoxwaarde in millivolt (mV)",
+    "no": "Redoksverdi i millivolt (mV)",
+    "sv": "Redoxvärde i millivolt (mV)"
+  },
+  "chartType": "stepLine",
+  "getable": true,
+  "setable": false
 }

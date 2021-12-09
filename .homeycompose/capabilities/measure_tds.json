@@ -1,26 +1,26 @@
 {
-    "type": "number",
-    "title": {
-        "en": "TDS"
-    },
-    "uiComponent": "sensor",
-    "icon": "/assets/tds.svg",
-    "units": {
-        "en": "ppm"
-    },
-    "insights": true,
-    "desc": {
-        "en": "TDS in parts-per-million (ppm)",
-        "da": "TDS-dele pr. Million (ppm)",
-        "de": "TDS in Teilen pro Million (ppm)",
-        "es": "TDS en partes por millón (ppm)",
-        "fr": "TDS en parts par million (ppm)",
-        "it": "TDS in parti per milione (ppm)",
-        "nl": "TDS deeltjes per miljoen (ppm)",
-        "no": "TDS i deler per million (ppm)",
-        "sv": "TDS i delar per miljon (ppm)"
-    },
-    "chartType": "spline",
-    "getable": true,
-    "setable": false
+  "type": "number",
+  "title": {
+    "en": "TDS"
+  },
+  "uiComponent": "sensor",
+  "icon": "/assets/tds.svg",
+  "units": {
+    "en": "ppm"
+  },
+  "insights": true,
+  "desc": {
+    "en": "TDS in parts-per-million (ppm)",
+    "da": "TDS-dele pr. Million (ppm)",
+    "de": "TDS in Teilen pro Million (ppm)",
+    "es": "TDS en partes por millón (ppm)",
+    "fr": "TDS en parts par million (ppm)",
+    "it": "TDS in parti per milione (ppm)",
+    "nl": "TDS deeltjes per miljoen (ppm)",
+    "no": "TDS i deler per million (ppm)",
+    "sv": "TDS i delar per miljon (ppm)"
+  },
+  "chartType": "spline",
+  "getable": true,
+  "setable": false
 }

@@ -1,5 +1,8 @@
 'use strict';
 
-const Device = require('/lib/ICODevice');
+const Device = require('../../lib/Device');
 
-module.exports = class SpaDevice extends Device { }
+class SpaDevice extends Device {
+}
+
+module.exports = SpaDevice;

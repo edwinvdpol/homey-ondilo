@@ -1,28 +1,28 @@
 {
-    "type": "number",
-    "title": {
-        "en": "RSSI"
-    },
-    "uiComponent": "sensor",
-    "icon": "/assets/rssi.svg",
-    "units": {
-        "en": "%"
-    },
-    "insights": true,
-    "min": 0,
-    "max": 100,
-    "desc": {
-        "en": "Received signal strength indicator in percentage (%)",
-        "da": "Modtaget signalstyrkeindikator i procent (%)",
-        "de": "Anzeige der empfangenen Signalstärke in Prozent (%)",
-        "es": "Indicador de intensidad de la señal recibida en porcentaje (%)",
-        "fr": "Indicateur de force du signal reçu en pourcentage (%)",
-        "it": "Indicatore di potenza del segnale ricevuto in percentuale (%)",
-        "nl": "Indicator ontvangen signaalsterkte in procenten (%)",
-        "no": "Mottatt signalstyrkeindikator i prosent (%)",
-        "sv": "Mottagen signalstyrkaindikator i procent (%)"
-    },
-    "chartType": "spline",
-    "getable": true,
-    "setable": false
+  "type": "number",
+  "title": {
+    "en": "RSSI"
+  },
+  "uiComponent": "sensor",
+  "icon": "/assets/rssi.svg",
+  "units": {
+    "en": "%"
+  },
+  "insights": true,
+  "min": 0,
+  "max": 100,
+  "desc": {
+    "en": "Received signal strength indicator in percentage (%)",
+    "da": "Modtaget signalstyrkeindikator i procent (%)",
+    "de": "Anzeige der empfangenen Signalstärke in Prozent (%)",
+    "es": "Indicador de intensidad de la señal recibida en porcentaje (%)",
+    "fr": "Indicateur de force du signal reçu en pourcentage (%)",
+    "it": "Indicatore di potenza del segnale ricevuto in percentuale (%)",
+    "nl": "Indicator ontvangen signaalsterkte in procenten (%)",
+    "no": "Mottatt signalstyrkeindikator i prosent (%)",
+    "sv": "Mottagen signalstyrkaindikator i procent (%)"
+  },
+  "chartType": "spline",
+  "getable": true,
+  "setable": false
 }

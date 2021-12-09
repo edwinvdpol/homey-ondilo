@@ -1,7 +1,7 @@
 {
-    "id": "spa",
-    "name": "ICO Spa",
-    "$extends": [
-        "defaults"
-    ]
+  "id": "spa",
+  "name": "ICO Spa",
+  "$extends": [
+    "defaults"
+  ]
 }

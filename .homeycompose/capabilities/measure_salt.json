@@ -1,35 +1,35 @@
 {
-    "type": "number",
-    "title": {
-        "en": "Salinity",
-        "da": "Saltindhold",
-        "de": "Salzgehalt",
-        "es": "Salinidad",
-        "fr": "Salinité",
-        "it": "Salinità",
-        "nl": "Zoutgehalte",
-        "no": "Saltinnhold",
-        "sv": "Salthalt"
-    },
-    "uiComponent": "sensor",
-    "icon": "/assets/salt.svg",
-    "units": {
-        "en": "mg/L"
-    },
-    "decimals": 2,
-    "insights": true,
-    "desc": {
-        "en": "Salinity in milligrams per liter (mg/L)",
-        "da": "Saltindhold i milligram pr. Liter (mg/L)",
-        "de": "Salzgehalt in Milligramm pro Liter (mg/L)",
-        "es": "Salinidad en miligramos por litro (mg/L)",
-        "fr": "Salinité en milligrammes par litre (mg/L)",
-        "it": "Salinità in milligrammi per litro (mg/L)",
-        "nl": "Zoutgehalte in milligram per liter (mg/L)",
-        "no": "Saltinnhold i milligram per liter (mg/L)",
-        "sv": "Salthalt i milligram per liter (mg/L)"
-    },
-    "chartType": "spline",
-    "getable": true,
-    "setable": false
+  "type": "number",
+  "title": {
+    "en": "Salinity",
+    "da": "Saltindhold",
+    "de": "Salzgehalt",
+    "es": "Salinidad",
+    "fr": "Salinité",
+    "it": "Salinità",
+    "nl": "Zoutgehalte",
+    "no": "Saltinnhold",
+    "sv": "Salthalt"
+  },
+  "uiComponent": "sensor",
+  "icon": "/assets/salt.svg",
+  "units": {
+    "en": "mg/L"
+  },
+  "decimals": 2,
+  "insights": true,
+  "desc": {
+    "en": "Salinity in milligrams per liter (mg/L)",
+    "da": "Saltindhold i milligram pr. Liter (mg/L)",
+    "de": "Salzgehalt in Milligramm pro Liter (mg/L)",
+    "es": "Salinidad en miligramos por litro (mg/L)",
+    "fr": "Salinité en milligrammes par litre (mg/L)",
+    "it": "Salinità in milligrammi per litro (mg/L)",
+    "nl": "Zoutgehalte in milligram per liter (mg/L)",
+    "no": "Saltinnhold i milligram per liter (mg/L)",
+    "sv": "Salthalt i milligram per liter (mg/L)"
+  },
+  "chartType": "spline",
+  "getable": true,
+  "setable": false
 }

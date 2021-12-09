@@ -1,36 +1,17 @@
 {
-    "1.0.0": {
-        "en": "Initial release",
-        "da": "Første udgivelse",
-        "de": "Erstveröffentlichung",
-        "es": "Versión inicial",
-        "fr": "Première version",
-        "it": "Versione iniziale",
-        "nl": "Eerste release",
-        "no": "Første utgivelse",
-        "sv": "Första utgåvan"
+    "1.2.0": {
+        "en": "Homey Cloud compatibility."
     },
-    "1.0.1": {
-        "en": "Fixed application name",
-        "da": "Ansøgningens navn er ændret",
-        "de": "Name der Anwendung geändert",
-        "es": "Se cambió el nombre de la aplicación",
-        "fr": "Nom de l'application modifié",
-        "it": "Nome dell'applicazione modificato",
-        "nl": "Naam van applicatie aangepast",
-        "no": "Søknadens navn er endret",
-        "sv": "Ansökan har ändrats"
-    },
-    "1.0.2": {
-        "en": "Added remaining translations",
-        "da": "Tilføjede resterende oversættelser",
-        "de": "Verbleibende Übersetzungen hinzugefügt",
-        "es": "Añadidas traducciones restantes",
-        "fr": "Ajout des traductions restantes",
-        "it": "Aggiunte traduzioni rimanenti",
-        "nl": "Overgebleven vertalingen toegevoegd",
-        "no": "Lagt til gjenværende oversettelser",
-        "sv": "Lade till återstående översättningar"
+    "1.1.1": {
+        "en": "Update for Homey App Store.",
+        "da": "Opdatering til Homey App Store.",
+        "de": "Update für Homey App Store.",
+        "es": "Actualización para Homey App Store.",
+        "fr": "Mise à jour pour Homey App Store.",
+        "it": "Aggiornamento per Homey App Store.",
+        "nl": "Update voor Homey App Store.",
+        "no": "Oppdatering for Homey App Store.",
+        "sv": "Uppdatering för Homey App Store."
     },
     "1.1.0": {
         "en": "Updated to the latest Homey Apps SDK version.",
@@ -43,15 +24,37 @@
         "no": "Oppdatert til den nyeste Homey Apps SDK-versjonen.",
         "sv": "Uppdaterad till den senaste Homey Apps SDK-versionen."
     },
-    "1.1.1": {
-        "en": "Update for Homey App Store.",
-        "da": "Opdatering til Homey App Store.",
-        "de": "Update für Homey App Store.",
-        "es": "Actualización para Homey App Store.",
-        "fr": "Mise à jour pour Homey App Store.",
-        "it": "Aggiornamento per Homey App Store.",
-        "nl": "Update voor Homey App Store.",
-        "no": "Oppdatering for Homey App Store.",
-        "sv": "Uppdatering för Homey App Store."
+    "1.0.2": {
+        "en": "Added remaining translations",
+        "da": "Tilføjede resterende oversættelser",
+        "de": "Verbleibende Übersetzungen hinzugefügt",
+        "es": "Añadidas traducciones restantes",
+        "fr": "Ajout des traductions restantes",
+        "it": "Aggiunte traduzioni rimanenti",
+        "nl": "Overgebleven vertalingen toegevoegd",
+        "no": "Lagt til gjenværende oversettelser",
+        "sv": "Lade till återstående översättningar"
+    },
+    "1.0.1": {
+        "en": "Fixed application name",
+        "da": "Ansøgningens navn er ændret",
+        "de": "Name der Anwendung geändert",
+        "es": "Se cambió el nombre de la aplicación",
+        "fr": "Nom de l'application modifié",
+        "it": "Nome dell'applicazione modificato",
+        "nl": "Naam van applicatie aangepast",
+        "no": "Søknadens navn er endret",
+        "sv": "Ansökan har ändrats"
+    },
+    "1.0.0": {
+        "en": "Initial release",
+        "da": "Første udgivelse",
+        "de": "Erstveröffentlichung",
+        "es": "Versión inicial",
+        "fr": "Première version",
+        "it": "Versione iniziale",
+        "nl": "Eerste release",
+        "no": "Første utgivelse",
+        "sv": "Första utgåvan"
     }
-}
+},
