@@ -10,6 +10,10 @@
     "no": "Saltinnholdet har endret seg",
     "sv": "Salthalten har förändrats"
   },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
   "args": [
     {
       "type": "device",

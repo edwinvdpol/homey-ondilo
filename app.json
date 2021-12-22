@@ -154,6 +154,10 @@
           "no": "Redoksverdien er endret",
           "sv": "Redoxvärdet har ändrats"
         },
+        "platforms": [
+          "local",
+          "cloud"
+        ],
         "args": [
           {
             "type": "device",
@@ -185,6 +189,10 @@
           "no": "pH-verdien har endret seg",
           "sv": "pH-värdet har ändrats"
         },
+        "platforms": [
+          "local",
+          "cloud"
+        ],
         "args": [
           {
             "type": "device",
@@ -216,6 +224,10 @@
           "no": "RSSI har endret seg",
           "sv": "RSSI har ändrats"
         },
+        "platforms": [
+          "local",
+          "cloud"
+        ],
         "args": [
           {
             "type": "device",
@@ -247,6 +259,10 @@
           "no": "Saltinnholdet har endret seg",
           "sv": "Salthalten har förändrats"
         },
+        "platforms": [
+          "local",
+          "cloud"
+        ],
         "args": [
           {
             "type": "device",
@@ -286,6 +302,10 @@
           "no": "TDS har endret seg",
           "sv": "TDS har förändrats"
         },
+        "platforms": [
+          "local",
+          "cloud"
+        ],
         "args": [
           {
             "type": "device",

@@ -10,6 +10,10 @@
     "no": "Redoksverdien er endret",
     "sv": "Redoxvärdet har ändrats"
   },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
   "args": [
     {
       "type": "device",

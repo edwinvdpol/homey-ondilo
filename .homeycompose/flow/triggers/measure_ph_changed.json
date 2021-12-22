@@ -10,6 +10,10 @@
     "no": "pH-verdien har endret seg",
     "sv": "pH-värdet har ändrats"
   },
+  "platforms": [
+    "local",
+    "cloud"
+  ],
   "args": [
     {
       "type": "device",
