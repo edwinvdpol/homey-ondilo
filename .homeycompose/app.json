@@ -137,6 +137,10 @@
       }
     }
   },
+  "homepage": "https://ondilo.com",
   "homeyCommunityTopicId": 37536,
-  "support": "https://community.athom.com/t/37536"
+  "support": "https://community.athom.com/t/37536",
+  "bugs": {
+    "url": "https://community.athom.com/t/37536"
+  }
 }
