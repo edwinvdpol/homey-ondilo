@@ -1,7 +1,10 @@
 {
     "errors": {
-        "401": "You are not authorized to use the API",
-        "404": "Device is not found",
-        "50x": "Ondilo API is not available"
+        "401": "You are not authorized to use the API.",
+        "404": "Device is not found.",
+        "50x": "Ondilo API is not available.",
+        "expired": "Login session has expired. Please re-authorize.",
+        "response": "Invalid response from Tedee API.",
+        "revoked": "Login session has been revoked. Please re-authorize."
     }
 }

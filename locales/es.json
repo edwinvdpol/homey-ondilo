@@ -1,7 +1,10 @@
 {
     "errors": {
-        "401": "No tienes autorización para utilizar la API",
-        "404": "No se encuentra el dispositivo",
-        "50x": "La API de Ondilo no está disponible"
+        "401": "No tienes autorización para utilizar la API.",
+        "404": "No se encuentra el dispositivo.",
+        "50x": "La API de Ondilo no está disponible.",
+        "expired": "La sesión de inicio de sesión ha caducado. Vuelva a autorizar.",
+        "response": "Respuesta no válida de la API de Tedee.",
+        "revoked": "La sesión de inicio de sesión ha sido revocada. Vuelva a autorizar."
     }
 }

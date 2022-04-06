@@ -1,7 +1,10 @@
 {
     "errors": {
-        "401": "Du är inte behörig att använda API",
-        "404": "Enheten hittades inte",
-        "50x": "Ondilo API är inte tillgängligt"
+        "401": "Du är inte behörig att använda API.",
+        "404": "Enheten hittades inte.",
+        "50x": "Ondilo API är inte tillgängligt.",
+        "expired": "Inloggningssessionen har löpt ut. Vänligen godkänn igen.",
+        "response": "Ogiltigt svar från Tedee API.",
+        "revoked": "Inloggningssessionen har återkallats. Vänligen godkänn igen."
     }
 }
