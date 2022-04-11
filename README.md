@@ -1,4 +1,4 @@
-# ICO for Homey
+# ICO Pool/Spa for Homey
 
 ICO will monitor your pool/spa.
 
