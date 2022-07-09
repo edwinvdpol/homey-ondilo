@@ -3,8 +3,6 @@
         "401": "Sie sind nicht berechtigt, die API zu verwenden.",
         "404": "Gerät wird nicht gefunden.",
         "50x": "Ondilo-API ist nicht verfügbar.",
-        "expired": "Die Anmeldesitzung ist abgelaufen. Bitte autorisieren Sie erneut.",
-        "response": "Ungültige Antwort von Tedee API.",
-        "revoked": "Anmeldesitzung wurde widerrufen. Bitte autorisieren Sie erneut."
+        "response": "Ungültige Antwort von Ondilo API."
     }
 }

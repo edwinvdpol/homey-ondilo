@@ -3,8 +3,6 @@
         "401": "Non sei autorizzato a utilizzare l'API.",
         "404": "Il dispositivo non è stato trovato.",
         "50x": "L'API Ondilo non è disponibile.",
-        "expired": "La sessione di accesso è scaduta. Si prega di riautorizzare.",
-        "response": "Risposta non valida dall'API Tedee.",
-        "revoked": "La sessione di accesso è stata revocata. Si prega di riautorizzare."
+        "response": "Risposta non valida dall'API Ondilo."
     }
 }

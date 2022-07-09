@@ -3,8 +3,6 @@
         "401": "Du er ikke autoriseret til at bruge API'en.",
         "404": "Enheden blev ikke fundet.",
         "50x": "Ondilo API er ikke tilgængelig.",
-        "expired": "Login session er udløbet. Godkend venligst igen.",
-        "response": "Ugyldigt svar fra Tedee API.",
-        "revoked": "Login session er blevet tilbagekaldt. Godkend venligst igen."
+        "response": "Ugyldigt svar fra Ondilo API."
     }
 }
