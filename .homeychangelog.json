@@ -1,6 +1,9 @@
 {
+  "1.3.0": {
+    "en": "Updated description and performance improvements."
+  },
   "1.2.2": {
-    "en": "Improved error handling"
+    "en": "Improved error handling."
   },
   "1.2.1": {
     "en": "Homey Cloud compatibility."
