@@ -1,8 +1,8 @@
 {
-    "errors": {
-        "401": "Du er ikke autoriseret til at bruge API'en.",
-        "404": "Enheden blev ikke fundet.",
-        "50x": "Ondilo API er ikke tilgængelig.",
-        "response": "Ugyldigt svar fra Ondilo API."
-    }
+  "errors": {
+    "401": "Du er ikke autoriseret til at bruge API'en.",
+    "404": "Enheden blev ikke fundet.",
+    "50x": "Ondilo API er ikke tilgængelig.",
+    "response": "Ugyldigt svar fra Ondilo API."
+  }
 }

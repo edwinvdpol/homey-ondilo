@@ -1,8 +1,8 @@
 {
-    "errors": {
-        "401": "Du är inte behörig att använda API.",
-        "404": "Enheten hittades inte.",
-        "50x": "Ondilo API är inte tillgängligt.",
-        "response": "Ogiltigt svar från Ondilo API."
-    }
+  "errors": {
+    "401": "Du är inte behörig att använda API.",
+    "404": "Enheten hittades inte.",
+    "50x": "Ondilo API är inte tillgängligt.",
+    "response": "Ogiltigt svar från Ondilo API."
+  }
 }

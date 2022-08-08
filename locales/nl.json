@@ -1,8 +1,8 @@
 {
-    "errors": {
-        "401": "U bent niet bevoegd om de API te gebruiken.",
-        "404": "Apparaat is niet gevonden.",
-        "50x": "Ondilo API is niet beschikbaar.",
-        "response": "Ongeldig antwoord van Ondilo API."
-    }
+  "errors": {
+    "401": "U bent niet bevoegd om de API te gebruiken.",
+    "404": "Apparaat is niet gevonden.",
+    "50x": "Ondilo API is niet beschikbaar.",
+    "response": "Ongeldig antwoord van Ondilo API."
+  }
 }

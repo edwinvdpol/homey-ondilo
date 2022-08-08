@@ -1,8 +1,8 @@
 {
-    "errors": {
-        "401": "You are not authorized to use the API.",
-        "404": "Device is not found.",
-        "50x": "Ondilo API is not available.",
-        "response": "Invalid response from Ondilo API."
-    }
+  "errors": {
+    "401": "You are not authorized to use the API.",
+    "404": "Device is not found.",
+    "50x": "Ondilo API is not available.",
+    "response": "Invalid response from Ondilo API."
+  }
 }
