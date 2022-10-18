@@ -1,8 +1,5 @@
 {
-  "images": {
-    "large": "{{driverAssetsPath}}/images/large.png",
-    "small": "{{driverAssetsPath}}/images/small.png"
-  },
+  "class": "other",
   "capabilities": [
     "measure_battery",
     "measure_orp",
@@ -12,11 +9,15 @@
     "measure_tds",
     "measure_temperature"
   ],
-  "connectivity": [
-    "cloud"
-  ],
+  "images": {
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "small": "{{driverAssetsPath}}/images/small.png"
+  },
   "platforms": [
     "local",
+    "cloud"
+  ],
+  "connectivity": [
     "cloud"
   ],
   "energy": {
@@ -24,30 +25,6 @@
       "INTERNAL"
     ]
   },
-  "class": "other",
-  "pair": [
-    {
-      "id": "login_oauth2",
-      "template": "login_oauth2"
-    },
-    {
-      "id": "list_devices",
-      "template": "list_devices",
-      "navigation": {
-        "next": "add_devices"
-      }
-    },
-    {
-      "id": "add_devices",
-      "template": "add_devices"
-    }
-  ],
-  "repair": [
-    {
-      "id": "login_oauth2",
-      "template": "login_oauth2"
-    }
-  ],
   "settings": [
     {
       "type": "group",
@@ -112,6 +89,29 @@
           "value": "-"
         }
       ]
+    }
+  ],
+  "pair": [
+    {
+      "id": "login_oauth2",
+      "template": "login_oauth2"
+    },
+    {
+      "id": "list_devices",
+      "template": "list_devices",
+      "navigation": {
+        "next": "add_devices"
+      }
+    },
+    {
+      "id": "add_devices",
+      "template": "add_devices"
+    }
+  ],
+  "repair": [
+    {
+      "id": "login_oauth2",
+      "template": "login_oauth2"
     }
   ]
 }

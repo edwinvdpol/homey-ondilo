@@ -1,6 +1,7 @@
 {
-  "id": "spa",
-  "name": "ICO Spa",
+  "name": {
+    "en": "ICO Spa"
+  },
   "$extends": [
     "defaults"
   ]

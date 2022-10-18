@@ -138,12 +138,12 @@
       }
     }
   },
-  "homepage": "https://ondilo.com",
-  "homeyCommunityTopicId": 37536,
-  "support": "https://community.athom.com/t/37536",
   "bugs": {
-    "url": "https://community.athom.com/t/37536"
+    "url": "https://community.homey.app/t/37536"
   },
+  "homeyCommunityTopicId": 37536,
+  "homepage": "https://ondilo.com",
+  "support": "https://community.homey.app/t/37536",
   "flow": {
     "triggers": [
       {
@@ -333,24 +333,25 @@
   },
   "drivers": [
     {
+      "class": "other",
+      "capabilities": [
+        "measure_battery",
+        "measure_orp",
+        "measure_ph",
+        "measure_rssi",
+        "measure_salt",
+        "measure_tds",
+        "measure_temperature"
+      ],
       "images": {
         "large": "/drivers/pool/assets/images/large.png",
         "small": "/drivers/pool/assets/images/small.png"
       },
-      "capabilities": [
-        "measure_battery",
-        "measure_orp",
-        "measure_ph",
-        "measure_rssi",
-        "measure_salt",
-        "measure_tds",
-        "measure_temperature"
-      ],
-      "connectivity": [
-        "cloud"
-      ],
       "platforms": [
         "local",
+        "cloud"
+      ],
+      "connectivity": [
         "cloud"
       ],
       "energy": {
@@ -358,30 +359,6 @@
           "INTERNAL"
         ]
       },
-      "class": "other",
-      "pair": [
-        {
-          "id": "login_oauth2",
-          "template": "login_oauth2"
-        },
-        {
-          "id": "list_devices",
-          "template": "list_devices",
-          "navigation": {
-            "next": "add_devices"
-          }
-        },
-        {
-          "id": "add_devices",
-          "template": "add_devices"
-        }
-      ],
-      "repair": [
-        {
-          "id": "login_oauth2",
-          "template": "login_oauth2"
-        }
-      ],
       "settings": [
         {
           "type": "group",
@@ -448,28 +425,54 @@
           ]
         }
       ],
-      "id": "pool",
-      "name": "ICO Pool"
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "name": {
+        "en": "ICO Pool"
+      },
+      "id": "pool"
     },
     {
+      "class": "other",
+      "capabilities": [
+        "measure_battery",
+        "measure_orp",
+        "measure_ph",
+        "measure_rssi",
+        "measure_salt",
+        "measure_tds",
+        "measure_temperature"
+      ],
       "images": {
         "large": "/drivers/spa/assets/images/large.png",
         "small": "/drivers/spa/assets/images/small.png"
       },
-      "capabilities": [
-        "measure_battery",
-        "measure_orp",
-        "measure_ph",
-        "measure_rssi",
-        "measure_salt",
-        "measure_tds",
-        "measure_temperature"
-      ],
-      "connectivity": [
-        "cloud"
-      ],
       "platforms": [
         "local",
+        "cloud"
+      ],
+      "connectivity": [
         "cloud"
       ],
       "energy": {
@@ -477,30 +480,6 @@
           "INTERNAL"
         ]
       },
-      "class": "other",
-      "pair": [
-        {
-          "id": "login_oauth2",
-          "template": "login_oauth2"
-        },
-        {
-          "id": "list_devices",
-          "template": "list_devices",
-          "navigation": {
-            "next": "add_devices"
-          }
-        },
-        {
-          "id": "add_devices",
-          "template": "add_devices"
-        }
-      ],
-      "repair": [
-        {
-          "id": "login_oauth2",
-          "template": "login_oauth2"
-        }
-      ],
       "settings": [
         {
           "type": "group",
@@ -567,8 +546,33 @@
           ]
         }
       ],
-      "id": "spa",
-      "name": "ICO Spa"
+      "pair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        },
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ],
+      "repair": [
+        {
+          "id": "login_oauth2",
+          "template": "login_oauth2"
+        }
+      ],
+      "name": {
+        "en": "ICO Spa"
+      },
+      "id": "spa"
     }
   ],
   "capabilities": {
