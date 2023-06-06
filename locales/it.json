@@ -1,8 +1,9 @@
 {
   "errors": {
-    "401": "Non sei autorizzato a utilizzare l'API.",
-    "404": "Il dispositivo non è stato trovato.",
+    "401": "Non sei autorizzato.",
+    "403": "Non sei autorizzato a utilizzare questo dispositivo.",
+    "404": "Dispositivo non trovato.",
     "50x": "L'API Ondilo non è disponibile.",
-    "response": "Risposta non valida dall'API Ondilo."
+    "response": "Risposta non valida dall'API."
   }
 }
