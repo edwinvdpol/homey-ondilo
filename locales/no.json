@@ -1,9 +1,10 @@
 {
   "errors": {
-    "401": "Du er ikke autorisert.",
-    "403": "Du har ikke lov til å bruke denne enheten.",
-    "404": "Enhet ikke funnet.",
-    "50x": "Ondilo API er utilgjengelig.",
-    "response": "Ugyldig svar fra API."
+    "401": "Ondilo API-legitimasjon er feil",
+    "403": "Ondilo API har nektet tilgang til denne enheten",
+    "404": "Enheten ikke funnet i Ondilo-kontoen",
+    "50x": "Ondilo API er utilgjengelig",
+    "network": "Ondilo API er utilgjengelig",
+    "unknown": "En ukjent feil har oppstått"
   }
 }

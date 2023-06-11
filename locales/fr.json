@@ -1,9 +1,10 @@
 {
   "errors": {
-    "401": "Vous n'êtes pas autorisé.",
-    "403": "Vous n'êtes pas autorisé à utiliser cet appareil.",
-    "404": "Appareil non trouvé.",
-    "50x": "L'API Ondilo n'est pas disponible.",
-    "response": "Réponse non valide de l'API."
+    "401": "Les informations d'identification de l'API Ondilo sont incorrectes",
+    "403": "L'API Ondilo a refusé l'accès à cet appareil",
+    "404": "Appareil introuvable dans le compte Ondilo",
+    "50x": "L'API Ondilo n'est pas disponible",
+    "network": "L'API Ondilo est inaccessible",
+    "unknown": "Une erreur inconnue s'est produite"
   }
 }
