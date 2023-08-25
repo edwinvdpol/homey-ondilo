@@ -328,6 +328,51 @@
           }
         ],
         "id": "measure_tds_changed"
+      },
+      {
+        "title": {
+          "en": "New recommendation received",
+          "da": "Ny anbefaling modtaget",
+          "de": "Neue Empfehlung erhalten",
+          "es": "Nueva recomendación recibida",
+          "fr": "Nouvelle recommandation reçue",
+          "it": "Nuova raccomandazione ricevuta",
+          "nl": "Nieuw aanbeveling is ontvangen",
+          "no": "Ny anbefaling mottatt",
+          "sv": "Ny rekommendation mottagits"
+        },
+        "platforms": [
+          "local",
+          "cloud"
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "recommendation",
+            "title": {
+              "en": "Recommendation",
+              "da": "Henstilling",
+              "de": "Empfehlung",
+              "es": "Recomendación",
+              "fr": "Recommandation",
+              "it": "Raccomandazione",
+              "nl": "Aanbeveling",
+              "no": "Anbefaling",
+              "sv": "Rekommendation"
+            },
+            "type": "string",
+            "example": {
+              "en": "Your sanitizer is losing efficiency"
+            }
+          }
+        ],
+        "id": "recommendation_received"
       }
     ]
   },
