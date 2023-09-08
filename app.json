@@ -162,21 +162,21 @@
           "local",
           "cloud"
         ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=pool|spa"
-          }
-        ],
         "tokens": [
           {
+            "type": "number",
             "name": "measure_orp",
             "title": {
               "en": "Redox"
             },
-            "type": "number",
             "example": 400
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa&capabilities=measure_orp"
           }
         ],
         "id": "measure_orp_changed"
@@ -197,21 +197,21 @@
           "local",
           "cloud"
         ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=pool|spa"
-          }
-        ],
         "tokens": [
           {
+            "type": "number",
             "name": "measure_ph",
             "title": {
               "en": "pH"
             },
-            "type": "number",
             "example": 7.2
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa&capabilities=measure_ph"
           }
         ],
         "id": "measure_ph_changed"
@@ -232,21 +232,21 @@
           "local",
           "cloud"
         ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=pool|spa"
-          }
-        ],
         "tokens": [
           {
+            "type": "number",
             "name": "measure_rssi",
             "title": {
               "en": "RSSI"
             },
-            "type": "number",
             "example": 50
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa&capabilities=measure_rssi"
           }
         ],
         "id": "measure_rssi_changed"
@@ -267,15 +267,9 @@
           "local",
           "cloud"
         ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=pool|spa"
-          }
-        ],
         "tokens": [
           {
+            "type": "number",
             "name": "measure_salt",
             "title": {
               "en": "Salinity",
@@ -288,8 +282,14 @@
               "no": "Saltinnhold",
               "sv": "Salthalt"
             },
-            "type": "number",
             "example": 40
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa&capabilities=measure_salt"
           }
         ],
         "id": "measure_salt_changed"
@@ -310,21 +310,21 @@
           "local",
           "cloud"
         ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=pool|spa"
-          }
-        ],
         "tokens": [
           {
+            "type": "number",
             "name": "measure_tds",
             "title": {
               "en": "TDS"
             },
-            "type": "number",
             "example": 400
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa&capabilities=measure_tds"
           }
         ],
         "id": "measure_tds_changed"
@@ -345,15 +345,9 @@
           "local",
           "cloud"
         ],
-        "args": [
-          {
-            "type": "device",
-            "name": "device",
-            "filter": "driver_id=pool|spa"
-          }
-        ],
         "tokens": [
           {
+            "type": "string",
             "name": "recommendation",
             "title": {
               "en": "Recommendation",
@@ -366,10 +360,16 @@
               "no": "Anbefaling",
               "sv": "Rekommendation"
             },
-            "type": "string",
             "example": {
               "en": "Your sanitizer is losing efficiency"
             }
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=pool|spa"
           }
         ],
         "id": "recommendation_received"

@@ -14,15 +14,9 @@
     "local",
     "cloud"
   ],
-  "args": [
-    {
-      "type": "device",
-      "name": "device",
-      "filter": "driver_id=pool|spa"
-    }
-  ],
   "tokens": [
     {
+      "type": "string",
       "name": "recommendation",
       "title": {
         "en": "Recommendation",
@@ -35,10 +29,16 @@
         "no": "Anbefaling",
         "sv": "Rekommendation"
       },
-      "type": "string",
       "example": {
         "en": "Your sanitizer is losing efficiency"
       }
+    }
+  ],
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=pool|spa"
     }
   ]
 }

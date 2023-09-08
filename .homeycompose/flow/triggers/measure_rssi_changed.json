@@ -14,21 +14,21 @@
     "local",
     "cloud"
   ],
-  "args": [
-    {
-      "type": "device",
-      "name": "device",
-      "filter": "driver_id=pool|spa"
-    }
-  ],
   "tokens": [
     {
+      "type": "number",
       "name": "measure_rssi",
       "title": {
         "en": "RSSI"
       },
-      "type": "number",
       "example": 50
+    }
+  ],
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=pool|spa&capabilities=measure_rssi"
     }
   ]
 }

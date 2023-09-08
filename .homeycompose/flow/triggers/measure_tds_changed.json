@@ -14,21 +14,21 @@
     "local",
     "cloud"
   ],
-  "args": [
-    {
-      "type": "device",
-      "name": "device",
-      "filter": "driver_id=pool|spa"
-    }
-  ],
   "tokens": [
     {
+      "type": "number",
       "name": "measure_tds",
       "title": {
         "en": "TDS"
       },
-      "type": "number",
       "example": 400
+    }
+  ],
+  "args": [
+    {
+      "type": "device",
+      "name": "device",
+      "filter": "driver_id=pool|spa&capabilities=measure_tds"
     }
   ]
 }
