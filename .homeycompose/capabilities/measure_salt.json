@@ -11,6 +11,8 @@
     "no": "Saltinnhold",
     "sv": "Salthalt"
   },
+  "getable": true,
+  "setable": false,
   "uiComponent": "sensor",
   "icon": "/assets/salt.svg",
   "units": {
@@ -29,7 +31,5 @@
     "no": "Saltinnhold i milligram per liter (mg/L)",
     "sv": "Salthalt i milligram per liter (mg/L)"
   },
-  "chartType": "spline",
-  "getable": true,
-  "setable": false
+  "chartType": "spline"
 }

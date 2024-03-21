@@ -11,6 +11,8 @@
     "no": "Redox-verdi",
     "sv": "Redoxvärde"
   },
+  "getable": true,
+  "setable": false,
   "uiComponent": "sensor",
   "icon": "/assets/orp.svg",
   "units": {
@@ -28,7 +30,5 @@
     "no": "Redoksverdi i millivolt (mV)",
     "sv": "Redoxvärde i millivolt (mV)"
   },
-  "chartType": "stepLine",
-  "getable": true,
-  "setable": false
+  "chartType": "stepLine"
 }

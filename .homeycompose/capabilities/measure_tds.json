@@ -3,6 +3,8 @@
   "title": {
     "en": "TDS"
   },
+  "getable": true,
+  "setable": false,
   "uiComponent": "sensor",
   "icon": "/assets/tds.svg",
   "units": {
@@ -20,7 +22,5 @@
     "no": "TDS i deler per million (ppm)",
     "sv": "TDS i delar per miljon (ppm)"
   },
-  "chartType": "spline",
-  "getable": true,
-  "setable": false
+  "chartType": "spline"
 }

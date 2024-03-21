@@ -3,6 +3,8 @@
   "title": {
     "en": "RSSI"
   },
+  "getable": true,
+  "setable": false,
   "uiComponent": "sensor",
   "icon": "/assets/rssi.svg",
   "units": {
@@ -22,7 +24,5 @@
     "no": "Mottatt signalstyrkeindikator i prosent (%)",
     "sv": "Mottagen signalstyrkaindikator i procent (%)"
   },
-  "chartType": "spline",
-  "getable": true,
-  "setable": false
+  "chartType": "spline"
 }

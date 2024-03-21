@@ -634,6 +634,8 @@
         "no": "Redox-verdi",
         "sv": "Redoxvärde"
       },
+      "getable": true,
+      "setable": false,
       "uiComponent": "sensor",
       "icon": "/assets/orp.svg",
       "units": {
@@ -651,9 +653,7 @@
         "no": "Redoksverdi i millivolt (mV)",
         "sv": "Redoxvärde i millivolt (mV)"
       },
-      "chartType": "stepLine",
-      "getable": true,
-      "setable": false
+      "chartType": "stepLine"
     },
     "measure_ph": {
       "type": "number",
@@ -668,19 +668,21 @@
         "no": "pH verdi",
         "sv": "pH-värde"
       },
+      "getable": true,
+      "setable": false,
       "uiComponent": "sensor",
       "icon": "/assets/ph.svg",
       "decimals": 2,
       "insights": true,
-      "chartType": "spline",
-      "getable": true,
-      "setable": false
+      "chartType": "spline"
     },
     "measure_rssi": {
       "type": "number",
       "title": {
         "en": "RSSI"
       },
+      "getable": true,
+      "setable": false,
       "uiComponent": "sensor",
       "icon": "/assets/rssi.svg",
       "units": {
@@ -700,9 +702,7 @@
         "no": "Mottatt signalstyrkeindikator i prosent (%)",
         "sv": "Mottagen signalstyrkaindikator i procent (%)"
       },
-      "chartType": "spline",
-      "getable": true,
-      "setable": false
+      "chartType": "spline"
     },
     "measure_salt": {
       "type": "number",
@@ -717,6 +717,8 @@
         "no": "Saltinnhold",
         "sv": "Salthalt"
       },
+      "getable": true,
+      "setable": false,
       "uiComponent": "sensor",
       "icon": "/assets/salt.svg",
       "units": {
@@ -735,15 +737,15 @@
         "no": "Saltinnhold i milligram per liter (mg/L)",
         "sv": "Salthalt i milligram per liter (mg/L)"
       },
-      "chartType": "spline",
-      "getable": true,
-      "setable": false
+      "chartType": "spline"
     },
     "measure_tds": {
       "type": "number",
       "title": {
         "en": "TDS"
       },
+      "getable": true,
+      "setable": false,
       "uiComponent": "sensor",
       "icon": "/assets/tds.svg",
       "units": {
@@ -761,9 +763,7 @@
         "no": "TDS i deler per million (ppm)",
         "sv": "TDS i delar per miljon (ppm)"
       },
-      "chartType": "spline",
-      "getable": true,
-      "setable": false
+      "chartType": "spline"
     }
   }
 }

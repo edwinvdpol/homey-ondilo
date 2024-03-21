@@ -11,11 +11,11 @@
     "no": "pH verdi",
     "sv": "pH-värde"
   },
+  "getable": true,
+  "setable": false,
   "uiComponent": "sensor",
   "icon": "/assets/ph.svg",
   "decimals": 2,
   "insights": true,
-  "chartType": "spline",
-  "getable": true,
-  "setable": false
+  "chartType": "spline"
 }
