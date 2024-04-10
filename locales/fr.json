@@ -1,5 +1,5 @@
 {
-  "errors": {
+  "error": {
     "401": "Les informations d'identification de l'API Ondilo sont incorrectes",
     "403": "L'API Ondilo a refusé l'accès à cet appareil",
     "404": "Appareil introuvable dans le compte Ondilo",

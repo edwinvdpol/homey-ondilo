@@ -1,5 +1,5 @@
 {
-  "errors": {
+  "error": {
     "401": "Ondilo API credentials are incorrect",
     "403": "Ondilo API has denied access to this device",
     "404": "Device not found in Ondilo account",

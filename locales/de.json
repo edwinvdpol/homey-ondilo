@@ -1,5 +1,5 @@
 {
-  "errors": {
+  "error": {
     "401": "Die Ondilo-API-Anmeldeinformationen sind falsch",
     "403": "Die Ondilo-API hat den Zugriff auf dieses Gerät verweigert",
     "404": "Gerät im Ondilo-Konto nicht gefunden",
