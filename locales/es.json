@@ -1,4 +1,7 @@
 {
+  "authentication": {
+    "connecting": "Conectando..."
+  },
   "error": {
     "401": "Las credenciales de la API de Ondilo son incorrectas",
     "403": "Ondilo API ha denegado el acceso a este dispositivo",

@@ -1,4 +1,7 @@
 {
+  "authentication": {
+    "connecting": "Verbinden..."
+  },
   "error": {
     "401": "Die Ondilo-API-Anmeldeinformationen sind falsch",
     "403": "Die Ondilo-API hat den Zugriff auf dieses Gerät verweigert",

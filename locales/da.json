@@ -1,4 +1,7 @@
 {
+  "authentication": {
+    "connecting": "Opretter forbindelse..."
+  },
   "error": {
     "401": "Ondilo API-legitimationsoplysninger er forkerte",
     "403": "Ondilo API har nægtet adgang til denne enhed",

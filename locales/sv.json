@@ -1,4 +1,7 @@
 {
+  "authentication": {
+    "connecting": "Ansluter..."
+  },
   "error": {
     "401": "Ondilo API-uppgifter är felaktiga",
     "403": "Ondilo API har nekat åtkomst till den här enheten",
