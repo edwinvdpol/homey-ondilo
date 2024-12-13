@@ -6,7 +6,7 @@
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
-  "icon": "/assets/rssi.svg",
+  "icon": "/assets/capabilities/measure_signal_strength.svg",
   "units": {
     "en": "%"
   },

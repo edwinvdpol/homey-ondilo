@@ -6,7 +6,7 @@
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
-  "icon": "/assets/tds.svg",
+  "icon": "/assets/capabilities/tds.svg",
   "units": {
     "en": "ppm"
   },

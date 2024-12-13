@@ -14,7 +14,7 @@
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
-  "icon": "/assets/salt.svg",
+  "icon": "/assets/capabilities/salt.svg",
   "units": {
     "en": "mg/L"
   },

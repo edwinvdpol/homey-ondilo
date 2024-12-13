@@ -14,7 +14,7 @@
   "getable": true,
   "setable": false,
   "uiComponent": "sensor",
-  "icon": "/assets/orp.svg",
+  "icon": "/assets/capabilities/measure_voltage.svg",
   "units": {
     "en": "mV"
   },
